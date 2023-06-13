@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+	background:#eee;
+	font-family: 'PT Serif', serif;
+}
+
+/* Header Section Start */
+
+.about {
+	height:auto;
+	width:100%;
+    	padding: 0px 10px 56px 0px;
+    	text-align: center;		     /* Container for Logo and College Name */
+    	color: black;
+	font-size:26.5px;
+}
+.logo{
+	height:200px;
+	
+}
+.college-name{
+	text-align:center;
+	margin-top:70px;
+}
+
+/* END of Header */
+
+h2{
+	text-align:center;
+	font-size:40px;
+	padding-top:45px;
+}
+
+.tabl1 ul li{
+	list-style:none;
+	padding-bottom:50px;
+}
+
+/* HOD Panel Css */
+
+.exam-section{
+	height:70px;
+	background-color: #eee;
+	margin-top:15px;
+}
+
+.place-exam-section{
+	height:50px;
+	width:550px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#eee;
+	text-align: center;
+	border-radius:7px;
+}
+
+/* END of HOD Panel */
+
+/* Start of Department Button */
+
+button{
+	font-size:18px;
+	border:none;
+	box-shadow:0px 0px 15px 0px black;
+}
+
+.hod-button button{
+	height:auto;
+	width:400px;
+	background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:50px;
+	text-align:center;
+	color:white;
+	font-size:22px;
+}
+
+.hod-button:hover button{
+	background:wheat;
+	color:black;
+}
+.blink{
+	animation: blinker 3.0s linear infinite;
+	color:red;
+}
+@keyframes blinker{
+	50%{
+			opacity: 0;
+		}
+} 
+
+/* End of Department Button */
+
+/* Start of Department Area */
+
+.tabl{
+  	height: auto;
+	  background: #ED213A;  /* fallback for old browsers */
+	  background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+	  background: linear-gradient(to bottom, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  
+    	border-radius: 10px;
+    	padding-bottom: 10px;		
+	box-shadow: 0px 0px 30px 0px;
+}
+
+.tabl-bca button{
+	height:auto;
+	background:white;
+	border-radius:20px;
+	color:black;
+	box-shadow: 0px 0px 30px 0px;
+	cursor:pointer;
+}
+.tabl-mca button{
+	height:auto;
+	margin-left:auto;
+	background:white;
+	border-radius:20px;
+	color:black;
+	box-shadow: 0px 0px 30px 0px;
+	cursor:pointer;
+}
+
+.tabl-csbs button{
+	height:auto;
+	margin-right:auto;
+	background:white;
+	border-radius:20px;
+	color:black;
+	box-shadow: 0px 0px 30px 0px;
+	cursor:pointer;
+}
+.tabl-cse button{
+	height:auto;
+	background:white;
+	border-radius:20px;
+	color:black;
+	box-shadow: 0px 0px 30px 0px;
+	cursor:pointer;
+}
+
+.tabl1{
+	height: auto;
+	background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	  border-radius: 10px;
+	  padding-bottom: 10px;		
+  box-shadow: 0px 0px 30px 0px;
+}
+
+.abs{
+	padding:none;
+	margin:none;
+}
+
+/* End of Department Area */
+
+/* Start BCA Dpartment */
+
+.abs2{
+	padding:none;
+	margin:none;
+}
+.abs3{
+	padding:none;
+	margin:none;
+}
+.abs4{
+	padding:none;
+	margin:none;
+}
+.abs5{
+	padding:none;
+	margin:none;
+}
+
+/* */
+
+/* Start of Footer Area */
+
+.footer-partition{
+    width:24%;
+    color:white;
+    /* background-color: #da2222; */
+    height:auto;
+}
+
+h6{
+    font-weight:bolder;
+}
+.footer-partition ul li{
+    list-style:none !important;
+    display:block !important;
+    font-size:15px;
+}
+i{
+    color:white;
+    /* padding-left:15px; */
+    cursor:pointer;
+}
+
+/* End of Footer Area */

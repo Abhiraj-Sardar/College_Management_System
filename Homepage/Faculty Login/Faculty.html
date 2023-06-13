@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student portal</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css file/faculty.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lora&family=PT+Serif:wght@400;700&family=Playfair+Display+SC:ital@1&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+        <div class="col-12 col-md-2 logo">
+            <img src="img/stan.png"alt="college logo" height="200px" width="200px">
+        </div>
+        <div class="col-12 col-md-10 college-name">
+            <h1>STANFORD INSTITUTE OF TECHNOLOGY</h1>
+            <hr style="background-color:black; ">
+            <h4>450 Serra Mall, Stanford, California 94305, United States Of America</h4>
+        </div>
+    </div>
+    <div class="row student-portal-section">
+        <div class="col-12">
+            <hr style="border:2px solid red;">
+            <div class="row">
+                
+                <div class="col-12 col-md-4" style="background-color:#eee">
+                    
+                </div>
+                <div class="col-12 col-md-4" style="background-color:#eee;">
+                    
+                    <div class="student-portal-name">
+                        <h2 style="margin-left:0px;text-shadow:2px 2px 5px rgba(255, 0, 0, 0.555)">FACULTY PORTAL</h2>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4" style="background-color:#eee;">
+                    
+                </div>
+                
+            </div>
+            <hr style="border:2px solid red;">
+        </div>
+    </div>  
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-8 all-btn" style="height:auto;">
+                <div class="container student-menu-section" style="height:auto;">
+                    <div class="row">
+                        <div class="col-12 col-md-3" style="height:auto; width:auto;">
+                            <button>
+                                <a href="my profile/Student Login1.html" target="_blank" style="text-decoration:none;color:black;">
+                                    <img src="img/user.webp" height="100px" width="auto">
+                                    <br>
+                                    <h6>My Profile</h6>
+                                </a>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button onclick="showattendance()">
+                                <img src="img/attendance.png" height="100px" width="auto">
+                                <br>
+                                <h6>My Attendance</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button onclick="showregular()">
+                                <img src="img/enrollment form.png" height="100px" width="auto">
+                                <br>
+                                <h6>Regular Enrollment Form</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button>
+                                <a href="https://www.makaut.com/" target="_blank">
+
+                                    <img src="img/pqp.png" height="100px" width="auto">
+                                </a>
+                                <br>
+                                <h6>Previous Year Question Papers</h6>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <button onclick="showcamarks()">
+                                <img src="img/ca marks.png" height="100px" width="auto">
+                                <br>
+                                <h6>Upload CA Marks</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <button onclick="showassignment()">
+                                <img src="img/project and assignment submission.jpg" height="100px" width="auto">
+                                <br>
+                                <h6>Check Assignments</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button onclick="showquestion()">
+                                <img src="img/online exam form.png" height="100px" width="auto">
+                                <br>
+                                <h6>Upload Question Papers</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <button>
+                                <img src="img/bform.png" height="100px" width="auto">
+                                <br>
+                                <h6>Backlog Form</h6>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <button onclick="showstudentactivity()">
+                                <img src="img/student activity.jpg" height="100px" width="auto">
+                                <br>
+                                <h6>Student Activity</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button onclick="showmentor()">
+                                <img src="img/gattendance.jpg" height="100px" width="auto">
+                                <br>
+                                <h6>Give Attendance</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <a href="Library/index/index.html" target="_blank">
+                            <button>
+
+                                    <img src="img/download.png" height="100px" width="auto">
+                                    <br>
+                                    <h6>Library</h6>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <button onclick="showstudy()">
+                                <img src="img/study resource.png" height="100px" width="auto">
+                                <br>
+                                <h6>Study Resources</h6>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button onclick="showregistration()">
+                                <img src="img/registration.png" height="100px" width="auto">
+                                <br>
+                                <h6>Evaluate Registration Card</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button onclick="showresult()">
+                                <img src="img/result.jpg" height="100px" width="auto">
+                                <br>
+                                <h6>Mock Exam</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style=" height:auto;">
+                            <button onclick="showonlineexam()">
+                                <img src="img/online exam.png" height="100px" width="auto">
+                                <br>
+                                <h6>Online Exam</h6>
+                            </button>
+                        </div>
+                        <div class="col-12 col-md-3" style="height:auto;">
+                            <button>
+                                <img src="img/online payment.png" height="100px" width="auto">
+                                <br>
+                                <h6>Online Payment</h6>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4" style="height:auto;">
+                    <div class="container bg-info information" style="height:620px;">
+                        <div class="row">
+                            <div class="col-12 information-show" id="info" style="height:auto;">
+                                <h3>Information will be shown here</h3>
+                            </div>
+                            <div class="col-12 my-attendance" id="ad" style="height:auto;">
+                                <h3 style="text-align:center;">My Attendance</h3>
+                               <table class="table table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Day</th>
+                                        <th>Monday</th>
+                                        <th>Tueday</th>
+                                        <th>Wednesday</th>
+                                        <th>Thursday</th>
+                                        <th>Friday</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>p</td>
+                                    </tr>
+                                </tbody>
+                               </table>
+                               
+                            </div>
+                            <div class="col-12 ca-marks" id="cm" style="height:auto;">
+                                <form>
+                               <h3 style="text-align:center;padding-bottom:15px;">My CA Marks</h3>
+                               <table class="table table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Subject</th>
+                                        <th>CA1</th>
+                                        <th>CA2</th>
+                                        <th>CA3</th>
+                                        <th>CA4</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mathematics</td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Software Engineering</td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25""></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Database Management System</td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Entrepreneurship</td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Python Programming</td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                        <td><input type="number" placeholder="Enter Marks Out of 25"></td>
+                                    </tr>
+                                </tbody>
+                               </table>
+                               <button class="btn btn-primary" type="submit">upload</button>
+                            </form>
+                            </div>
+                            <div class="col-12 student-activity" id="sa" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">My Activity</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                     <tr>
+                                         <th>Activity</th>
+                                         <th>Points Earned<br>(out of 25)</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <tr>
+                                        <td>participated in college event</td>
+                                        <td>22</td>
+                                     </tr>
+                                     <tr>
+                                        <td>Fresher's Welcome</td>
+                                        <td>20</td>
+                                     </tr>
+                                     <tr>
+                                        <td>conducted blood donation camp</td>
+                                        <td>25</td>
+                                     </tr>
+                                     <tr>
+                                        <td>organized tech fest</td>
+                                        <td>22</td>
+                                     </tr>
+                                     <tr>
+                                        <td>college sports</td>
+                                        <td>24</td>
+                                     </tr>
+                                     <tr>
+                                        <td>participated in Debate competition</td>
+                                        <td>22</td>
+                                     </tr>
+                                     <tr>
+                                        <td>Quiz Competition</td>
+                                        <td>22</td>
+                                     </tr>
+                                     <tr>
+                                        <td>Donation for Special child</td>
+                                        <td>25</td>
+                                     </tr>
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 registration-card" id="rc" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">Registration card</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                     <tr>
+                                         <th>Download Your Registration Card</th>
+                                         <th>Download here</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <tr>
+                                        <td>Registration Card for 1st sem</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Registration Card for 2nd sem</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Registration Card for 3rd sem</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Registration Card for 4th sem</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Registration Card for 5th sem</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Registration Card for 6th sem</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 assignment" id="am" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;padding-right: 90px;">Student Assignments</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                     <tr>
+                                         <th>Property</th>
+                                         <th>download Here</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <tr>
+                                        <td>Assignment-I</td>
+                                        <td>
+                                            <button>
+                                            <a href="role-of-entrepeneureship-in-economy (1).pdf" download>Assignment-I</a>
+                                            </button>   
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Assignment-II</td>
+                                        <td>
+                                            <button>
+                                            <a href="role-of-entrepeneureship-in-economy (1).pdf" download>Assignment-II</a>
+                                            </button>   
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Assignment-III</td>
+                                        <td>
+                                            <button>
+                                            <a href="role-of-entrepeneureship-in-economy (1).pdf" download>Assignment-III</a>
+                                            </button>   
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Assignment-IV</td>
+                                        <td>
+                                            <button>
+                                            <a href="role-of-entrepeneureship-in-economy (1).pdf" download>Assignment-IV</a>
+                                            </button>   
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Assignment-V</td>
+                                        <td>
+                                            <button>
+                                            <a href="role-of-entrepeneureship-in-economy (1).pdf" download>Assignment-V</a>
+                                            </button>   
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Assignment-VI</td>
+                                        <td>
+                                            <button>
+                                            <a href="role-of-entrepeneureship-in-economy (1).pdf" download>Assignment-VI</a>
+                                            </button>   
+                                        </td>
+                                     </tr>
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 mentor" id="mt" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;"> Student Attendance of  <input type="date" style="border-radius:9px;"></h3>
+                              
+                               
+                                <table class="table table-responsive">
+                                 <thead>
+                                     <tr>
+                                        <th>Student Name</th>
+                                        <th>Attendance</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td>Abhiraj Sardar</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kathakali Bose</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rikel schildt</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Baivab Mukherjee</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Snehasish Bhattacharya</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rupak sarkar</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sujoy Bera</td>
+                                        <td><select>
+                                            <option disabled selected input>----Give Attendance----</option>
+                                            <option value="p">Present</option>
+                                            <option value="a">Absent</option>
+                                        </select></td>
+                                    </tr>
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 result" id="rs" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">Conduct Mock Exam</h3>
+                                <a href="https://www.eklavvya.com/blog/tips-eliminate-problems-online-exam/conduct-mock-exam/" target="_blank">
+                                    <img src="img/mock1.webp" height="400px" width="400px;">
+                                </a>
+                             </div>
+                             <div class="col-12 online-exam" id="oe" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">Online Exam</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                    <tr>
+                                        <th>
+                                            <button onclick="copy()"  id="cp" value="https://meet.google.com/muo-xusw-ffv">
+                                               <strong>Copy-link</strong> 
+                                            </button> 
+                                        </th>
+                                        <th><a href="https://meet.google.com/muo-xusw-ffv">https://meet.google.com/muo-xusw-ffv</a></th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                    
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 upload-question-paper" id="uqp" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">Upload Question Paper</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                    <tr>
+                                        <th>Semester</th>
+                                        <th>Upload Here</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td>1st Semester</td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2nd Semester</td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3rd Semester</td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4th Semester</td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5th Semester</td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6th Semester</td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 study-resource" id="sr" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">Study Resources</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Upload Here</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control"></td>
+                                        <td> <input type="file" class="form-control"></td>
+                                    </tr>
+                                    
+                                 </tbody>
+                                </table>
+                             </div>
+                             <div class="col-12 ref" id="rf" style="height:auto;">
+                                <h3 style="text-align:center;padding-bottom:15px;">Registration card</h3>
+                                <table class="table table-responsive">
+                                 <thead>
+                                     <tr>
+                                         <th>Name</th>
+                                         <th>Enrollment form</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <tr>
+                                        <td>Abhiraj Sardar</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Sujoy Bera</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Sayan Ghosh</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Rupak sarkar</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Rakesh Paul</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                     <tr>
+                                        <td>Rina Maity</td>
+                                        <td>
+                                            <button>
+                                                <a href="img/admit.png" download>download</a>
+                                            </button>
+                                        </td>
+                                     </tr>
+                                 </tbody>
+                                </table>
+                             </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <br>
+        <!-- <div class="container-fluid all-images">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="pic1">
+                        <img src="img/expedition.png" alt="Avatar" class="image">
+                         <div class="overlay">
+                        <div class="text"><p style="text-align:justify;">Our scholars have led major breakthroughs in archaeological research, including carbon-14 dating.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="pic1">
+                        <img src="img/octo.png" alt="Avatar" class="image">
+                         <div class="overlay">
+                        <div class="text"><p style="text-align:justify;">UChicago scientists’ landmark sequencing of the octopus genome revealed the basis for intelligence and adaptive camouflage.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="pic1">
+                        <img src="img/solar.png" alt="Avatar" class="image">
+                         <div class="overlay">
+                        <div class="text"><p style="text-align:justify;">Prof. Eugene Parker discovered the solar wind and became the namesake of a NASA mission to the sun.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="pic1">
+                        <img src="img/anatomy.png" alt="Avatar" class="image">
+                         <div class="overlay">
+                        <div class="text"><p style="text-align:justify;">UChicago Medicine performed historic back-to-back triple-organ transplants in 2018.
+
+                        </p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div> -->
+          <br>
+          <br>
+          <br>
+          <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                    <div class="card-header bg-primary"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title" style="text-align:center;"><b>School</b></h5>
+                                      <p class="card-text text-center">when you look at school ask about</p>
+                                    </div>
+                                    <div class="card-footer bg-primary">
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                    <div class="card-header bg-success"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title" style="text-align:center;"><b>Courses</b></h5>
+                                      <p class="card-text text-center">a good educate should be avilable</p>
+                                    </div>
+                                    <div class="card-footer bg-success">
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                    <div class="card-header bg-warning"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title" style="text-align:center;"><b>Graduate</b></h5>
+                                      <p class="card-text text-center">our graduates placed at a esteemed company</p>
+                                    </div>
+                                    <div class="card-footer bg-warning">
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                    <div class="card-header" style="background-color: orange;"></div>
+                                    <div class="card-body">
+                                      <h5 class="card-title" style="text-align:center;"><b>Program</b></h5>
+                                      <p class="card-text text-center">supported good academic program</p>
+                                    </div>
+                                    <div class="card-footer" style="background-color: orange;">
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5 style="color: orange;margin-top:50px;">You are welcome</h5>
+                    <h1 style="color:aliceblue;">Discover Our Top College Student Benefits</h1>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br><br>
+        <div class="conatainer">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-columns">
+                        <div class="card">
+                          <img class="card-img-top" src="img/happy student.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">We ensure student Happiness</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                        <div class="card p-3">
+                          <blockquote class="blockquote mb-0 card-body">
+                            <p>“You can get everything in life you want if you will just help enough other people get what they want.”</p>
+                            <footer class="blockquote-footer">
+                              <small class="text-muted">
+                                Zig Ziglar<cite title="Source Title"></cite>
+                              </small>
+                            </footer>
+                          </blockquote>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="img/y.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">We make Student to Think</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card bg-primary text-white text-center p-3">
+                          <blockquote class="blockquote mb-0">
+                            <p>Easy access to all Departments is easy now for the Teachers.</p>
+                            <footer class="blockquote-footer">
+                              <small>
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                              </small>
+                            </footer>
+                          </blockquote>
+                        </div>
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">“Someone will declare, “I am the leader!” and expect everyone to get in line and follow him or her to the gates of heaven or hell. My experience is that it doesn’t happen that way. Others follow you based on the quality of your actions rather than the magnitude of your declarations.”--Bill Walash</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img" src="img/we.jpg" alt="Card image">
+                        </div>
+                        <div class="card p-3 text-right">
+                          <blockquote class="blockquote mb-0">
+                            <p>“First forget inspiration. Habit is more dependable. Habit will sustain you whether you're inspired or not. Habit will help you finish and polish your stories. Inspiration won't. Habit is persistence in practice.”</p>
+                            <footer class="blockquote-footer">
+                              <small class="text-muted">
+                                Octavia Butler <cite title="Source Title"></cite>
+                              </small>
+                            </footer>
+                          </blockquote>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">“The battles that count aren't the ones for gold medals. The struggles within yourself—the invisible, inevitable battles inside all of us—that's where it's at."—Jesse Owens</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <br>
+       
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 notice" style="height:400px;">
+                            <h2 style="text-align:center;">Rules & Regulations</h2>
+                            <hr>
+                            <marquee behavior="scroll" direction="up" height="300px" width="auto">
+                                <ol>
+                                    <li>The faculty shall not indulge in rude or abusive behaviour, comment against superiors,
+                                        make negative comments about other staff members, verbal attacks, which are of a
+                                    </li>
+                                    <li>The faculty shall desist from un-authorized distribution of printed material etc. The faculty
+                                        shall also desist from falsifying/tampering any records or documents;
+                                    </li>
+                                    <li> To mark attendance within the first ten minutes of the scheduled class hour. The student
+                                        entering the class after ten minutes can only avail the benefit of lecture and not the attendance;
+                                    </li>
+                                    <li>Involve visual and activity based learning wherever possible, make power point
+                                        presentations (PPT) in addition to conventional use of black board depending on the subject &
+                                        necessity;
+                                    </li>
+                                    <li>Shall handle the assigned practical classes and be available in the designated place for the
+                                        full time;
+                                    </li>
+                                    <li> To ensure maintenance of proctor diary in accurate, complete, and appropriate manner. The
+                                        proctor diary is to be regularly updated with the comprehensive information of the student’s
+                                        academic progress with proper verification;
+                                    </li>
+                                    <li>The employee shall not consume alcoholic beverages in the premises. He/She shall not arrive
+                                        at work under the influence of alcohol or any substance having a narcotic producing effect. He
+                                        shall also not arrive at work with the smell of alcohol on the breath;
+                                    </li>
+                                    <li>Provide real time case studies as and whenever possible. Employ appropriate strategies to
+                                        achieve desired objective of learning;
+                                    </li>
+                                </ol>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<br>
+<div class="container-fluid" style="background-color:rgb(33, 31, 31);">
+    <div class="row col-12">
+      <div class="footer-partition mt-5 ml-3">
+        <!-- <img src="img/Stanbw.png" height="100px" width="100px" style="margin-left:auto;margin-right:auto;display:block"> -->
+        <h4 style="text-transform:uppercase;padding-top:6px;text-align:center;">Stanford Institute Of Technology</h4>
+      </div>
+      <div class="footer-partition mt-5 ml-2">
+        <h6 style="padding-left:39px;padding-top:10px">Stanford Institute of Technology</h6>
+        <ul>
+          <li>Edward H. Levi Hall</li>
+          <li>5801 S. Ellis Ave.</li>
+          <li>Chicago,IL 60637</li>
+        </ul>
+      </div>
+      <div class="footer-partition mt-5 ml-2">
+        <ul style="text-decoration:underline;line-height: 40px;cursor:pointer;">
+          <li>Title IX</li>
+          <li>Non-Discrimination Statement</li>
+          <li>Accreditation/IBHE Resolution</li>
+          <li>Emergency Info</li>
+          <li>Job Opportunities</li>
+          <li>Make A Gift</li>
+          <li>Accesibility</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+      <div class="footer-partition mt-5 ml-2">
+        <ul style="text-decoration:underline;line-height: 40px;cursor:pointer;">
+          <li>Visit UCalifornia</li>
+          <li>Campus Directory</li>
+          <li>Contact Us</li>
+          <li>Maps & Directions</li>
+          <li>My.UCalifornia</li>
+          <li>Office 365</li>
+          <li>A-Z Listing</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row justify-content-end" style="margin-right:172px">
+      <i class="fa-brands fa-facebook-f" style="margin-left:15px"></i>
+      <i class="fa-brands fa-instagram" style="margin-left:15px"></i>          
+      <i class="fa-brands fa-linkedin-in" style="margin-left:15px"></i>
+      <i class="fa-brands fa-twitter" style="margin-left:15px"></i>
+      <i class="fa-brands fa-youtube" style="margin-left:15px"></i>
+    </div>
+
+    <hr style=" background-color:black">
+    <div class="row justify-content-center text-white">
+      <i class="fa-sharp fa-regular fa-copyright" style="font-size:12px;padding-top:6px"></i><p style="font-weight:bolder">2023 Stanford University of Technology</p>
+    </div>
+  </div>
+<script>
+    function notification(){
+        alert("The Admit card will made available for you , one week earlier of your  semester exam");
+    }
+    function copy(){
+        alert("the Link is copied to clipboard");
+    }
+    function showattendance(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="block";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+         document.getElementById('sr').style.display="none";
+         document.getElementById('rf').style.display="none";
+    }
+    function showcamarks(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="block";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+         document.getElementById('sr').style.display="none";
+         document.getElementById('rf').style.display="none";
+    }
+    function showregistration(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="block";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+         document.getElementById('sr').style.display="none";
+         document.getElementById('rf').style.display="none";
+    }
+    function showresult(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="block";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+         document.getElementById('sr').style.display="none";
+         document.getElementById('rf').style.display="none";
+    }
+    function showmentor(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="block";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+         document.getElementById('sr').style.display="none";
+         document.getElementById('rf').style.display="none";
+    }
+    function showstudentactivity(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="block";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+        document.getElementById('sr').style.display="none";
+        document.getElementById('rf').style.display="none";
+    }
+    function showonlineexam(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="block";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+        document.getElementById('sr').style.display="none";
+        document.getElementById('rf').style.display="none";
+    }
+    function showassignment(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="block";
+        document.getElementById('uqp').style.display="none";
+        document.getElementById('sr').style.display="none";
+        document.getElementById('rf').style.display="none";
+    }
+    function showquestion(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="block";
+        document.getElementById('sr').style.display="none";
+        document.getElementById('rf').style.display="none";
+    }
+    function showstudy(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+        document.getElementById('sr').style.display="block";
+        document.getElementById('rf').style.display="none";
+    }
+    function showregular(){
+        document.getElementById('info').style.display="none";
+        document.getElementById('ad').style.display="none";
+        document.getElementById('rc').style.display="none";
+        document.getElementById('rs').style.display="none";
+        document.getElementById('mt').style.display="none";
+        document.getElementById('cm').style.display="none";
+        document.getElementById('sa').style.display="none";
+        document.getElementById('oe').style.display="none";
+        document.getElementById('am').style.display="none";
+        document.getElementById('uqp').style.display="none";
+        document.getElementById('sr').style.display="none";
+        document.getElementById('rf').style.display="block";
+    }
+</script>
+</body>
+</html>

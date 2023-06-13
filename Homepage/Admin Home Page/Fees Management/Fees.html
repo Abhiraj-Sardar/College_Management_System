@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student portal</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css file/Fees.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lora&family=PT+Serif:wght@400;700&family=Playfair+Display+SC:ital@1&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+        <div class="col-12 col-md-2 logo">
+            <img src="img/stan.png"alt="college logo" height="200px" width="200px">
+        </div>
+        <div class="col-12 col-md-10 college-name">
+            <h1>STANFORD INSTITUTE OF TECHNOLOGY</h1>
+            <hr style="background-color:black; ">
+            <h4>450 Serra Mall, Stanford, California 94305, United States Of America</h4>
+        </div>
+    </div>
+    <div class="row student-portal-section">
+        <div class="col-12">
+            <hr style="border:2px solid red;">
+            <div class="row">
+                <div class="col-12 col-md-4" style="background-color:#eee;">
+                    
+                </div>
+                <div class="col-12 col-md-4" style="background-color:#eee;">
+                    <div class="student-portal-name">
+                        <h2 style="margin-left:0px;">FEES MANAGEMENT</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" style="background-color:#eee;">
+                    
+                </div>
+            </div>
+            <hr style="border:2px solid red;">
+        </div>
+    </div>  
+    <br>
+    <div class="container-fluid information" style="height:auto;">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container-fluid btn" style="height:auto;">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="departmentwise">
+                                <h2>Departmentwise Fees Analysis</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button onclick="showBca()" style="background: #12c2e9;  /* fallback for old browsers */
+                            background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+                            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+                                <h2>BCA</h2>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <button onclick="showBba()" style="background: #f12711;  /* fallback for old browsers */
+                            background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+                            background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                            ">
+                                <h2>BBA</h2>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <button onclick="showBsc()" style="background: #bc4e9c;  /* fallback for old browsers */
+                            background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+                            background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                            ">
+                                <h2>BSC</h2>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <button onclick="showCse()" style="background: #7F00FF;  /* fallback for old browsers */
+                            background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+                            background: linear-gradient(to left, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                            ">
+                                <h2>CSE</h2>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <button onclick="showMca()" style="background: #00F260;  /* fallback for old browsers */
+                            background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+                            background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                            ">
+                                <h2>MCA</h2>
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <button onclick="showMba()" style="background: #c21500;  /* fallback for old browsers */
+                            background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+                            background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                            ">
+                                <h2>MBA</h2>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="container information-section" style="height:auto;">
+                    <div class="row">
+                        <div class="col-12 bca" id="BCA" style="height:auto;">
+                            <table class="table table-responsive table-dark table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Abhiraj Sardar</td>
+                                        <td>BCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Bera</td>
+                                        <td>BCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Suman Roy</td>
+                                        <td>BCA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>BCA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>BCA</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>BCA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>BCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>BCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>BCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>BCA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>BCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12 bba" id="BBA" style="height:auto;">
+                            <table class="table table-responsive table-secondary table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Abhiraj Sardar</td>
+                                        <td>BBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Bera</td>
+                                        <td>BBA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Suman Roy</td>
+                                        <td>BBA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>BBA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>BBA</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>BBA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>BBA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>BBA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>BBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>BBA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>BBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12 bsc" id="BSC" style="height:auto;">
+                            <table class="table table-responsive table-dark table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Abhiraj Sardar</td>
+                                        <td>Bsc</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Bera</td>
+                                        <td>Bsc</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Suman Roy</td>
+                                        <td>Bsc</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>Bsc</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>Bsc</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>Bsc</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>Bsc</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>Bsc</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>Bsc</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>Bsc</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>Bsc</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>  
+                        <div class="col-12 cse" id="CSE" style="height:auto;">
+                            <table class="table table-responsive table-secondary table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Ankush Jena</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Pathan</td>
+                                        <td>CSE</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Jayesh Singla</td>
+                                        <td>CSE</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>CSE</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>CSE</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>CSE</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>CSE</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>               
+                        <div class="col-12 mca" id="MCA" style="height:auto;">
+                            <table class="table table-responsive table-dark table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Ankush Jena</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Pathan</td>
+                                        <td>MCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Jayesh Singla</td>
+                                        <td>MCA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>MCA</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>MCA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>MCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>MCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>   
+                        <div class="col-12 mba" id="MBA" style="height:auto;">
+                            <table class="table table-responsive table-secondary table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Ankush Jena</td>
+                                        <td>MBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Pathan</td>
+                                        <td>MBA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Jayesh Singla</td>
+                                        <td>MBA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>MBA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>MBA</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>MBA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>MBA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>MBA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>MBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>MBA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>MBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div> 
+                        <div class="col-12 default" id="DEF" style="height:auto;">
+                            <table class="table table-responsive table-secondary table-striped table-hover" style="border-radius:10px;">
+                                <thead>
+                                    <tr>
+                                        <th>Sl.no</th>
+                                        <th>Name</th>
+                                        <th>Stream</th>
+                                        <th>Age</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>Fees</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Ankush Jena</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8697499539</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>sujoy Pathan</td>
+                                        <td>BCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8671239057</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Jayesh Singla</td>
+                                        <td>BCA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8600987008</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Shreya Dey</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8097543231</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sayan Ghosh</td>
+                                        <td>MBA</td>
+                                        <td>17</td>
+                                        <td>Male</td>
+                                        <td>8900078654</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Michael Gomes</td>
+                                        <td>BBA</td>
+                                        <td>21</td>
+                                        <td>Male</td>
+                                        <td>8887654321</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Rupak Sarkar</td>
+                                        <td>MCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8908765432</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mufid Alam</td>
+                                        <td>BCA</td>
+                                        <td>20</td>
+                                        <td>Male</td>
+                                        <td>8697000987</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Baivab Mukherjee</td>
+                                        <td>BBA</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8600087654</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Tripti Saha</td>
+                                        <td>MCA</td>
+                                        <td>19</td>
+                                        <td>Female</td>
+                                        <td>8600876543</td>
+                                        <td>47,500</td>
+                                        <td>cleared</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Joseph john</td>
+                                        <td>CSE</td>
+                                        <td>19</td>
+                                        <td>Male</td>
+                                        <td>8690000087</td>
+                                        <td>47,500</td>
+                                        <td>Due</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>                                                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                <div class="card-header bg-primary"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align:center;"><b>School</b></h5>
+                                  <p class="card-text text-center">when you look at school ask about</p>
+                                </div>
+                                <div class="card-footer bg-primary">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                <div class="card-header bg-success"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align:center;"><b>Courses</b></h5>
+                                  <p class="card-text text-center">a good educate should be avilable</p>
+                                </div>
+                                <div class="card-footer bg-success">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                <div class="card-header bg-warning"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align:center;"><b>Graduate</b></h5>
+                                  <p class="card-text text-center">our graduates placed at a esteemed company</p>
+                                </div>
+                                <div class="card-footer bg-warning">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="card text-black  mt-5 mb-5" style="max-width: 18rem;">
+                                <div class="card-header" style="background-color: orange;"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align:center;"><b>Program</b></h5>
+                                  <p class="card-text text-center">supported good academic program</p>
+                                </div>
+                                <div class="card-footer" style="background-color: orange;">
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5 style="color: orange;margin-top:50px;">You are welcome</h5>
+                <h1 style="color:aliceblue;">Discover Our Top College Student Benefits</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 style="text-align:center;"><i class="fa-solid fa-graduation-cap" style="color:black;"></i></h1>
+                <h1 style="text-align:center;">Services</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="box-pic" style="background-color: #f12711;border:2px solid black;">
+                                <i class="fa-solid fa-flask"></i>
+                            </div>
+                            <div class="box-info">
+                                <h5 style="margin-top:12px;color:#12c2e9;">Creative</h5>
+                                <p>It is an creative and interactive management system</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="box-pic" style="background-color: #f12711;border:2px solid black;">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <div class="box-info">
+                                <h5 style="margin-top:12px;color:#12c2e9;">Global Students</h5>
+                                <p>It is an creative and interactive management system</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="box-pic" style="background-color: #f12711;border:2px solid black;">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                            <div class="box-info">
+                                <h5 style="margin-top:12px;color:#12c2e9;">About Education</h5>
+                                <p>It is an creative and interactive management system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="box-pic" style="background-color: #f12711;border:2px solid black;">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                            </div>
+                            <div class="box-info">
+                                <h5 style="margin-top:12px;color:#12c2e9;">Student Friendly</h5>
+                                <p>It is an creative and interactive management system</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="box-pic" style="background-color: #f12711;border:2px solid black;">
+                                <i class="fa-sharp fa-solid fa-shield"></i>
+                            </div>
+                            <div class="box-info">
+                                <h5 style="margin-top:12px;color:#12c2e9;">Security</h5>
+                                <p>It is an creative and interactive management system</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="box-pic" style="background-color: #f12711;border:2px solid black;">
+                                <i class="fa-solid fa-hands-holding-child"></i>
+                            </div>
+                            <div class="box-info">
+                                <h5 style="margin-top:12px;color:#12c2e9;">Easy To Use</h5>
+                                <p>This System is very easy such that a school student can make a payment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid" style="height:auto; background-color: #eee;">
+        <div class="row">
+            <div class="col-12 col-md-8" style="height:auto;">
+                <div class="container-fluid pending-info" style="height:auto;">
+                    <div class="row">
+                        <div class="col-12 col-md-6" >
+                            <br>
+                            <div class="pending-fees" style="height:auto;">
+                                <button onmouseover="showpendingfees()" onmouseleave="stoppendingfees()">
+                                    <h3 style="padding:0px 28px;">Pending Fees</h3>
+                                </button>
+                                <h2 id="payment1" style="text-align:center">52000</h2>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6" >
+                            <br>
+                            <div class="pending-fees" style="height:auto;">
+                                <button onmouseover="showofflinepayments()" onmouseleave="stopofflinepayments()">
+                                    <h3>Offline Payments</h3>
+                                </button>
+                                <h2 id="payment2" style="text-align:center;margin-left:25px;">36000</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="pending-fees" style="height:auto; text-align:center;">
+                                <button onmouseover="showonlinepayments()" onmouseleave="stoponlinepayments()">
+                                    <h3>Online Payments</h3>
+                                </button>
+                                <h2 id="payment3" style="text-align:center;margin-left:100px;">12000</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4" style="height:auto;">
+                <div class="container bg-warning" style="height:auto;border-radius:10px;">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 style="text-align:center;">Notice</h3>
+                            <hr>
+                            <marquee direction="up" scrollamount="3" height="auto" width="100%" style="text-align:center;">
+                               <h5>1.The Last Date of Fees Submission is from 27th of February</h5>
+                               <h5>2.Use Tcsion for Fees validation</h5>
+                               <h5>3.student registration form fees is Rs.1200</h5>
+                               <h5>4.B.tech Lateral Admission has Started</h5>
+                               <h5>5.Parents Teacher Meeting is from 12th january</h5>
+                               <h5 style="text-align:justify;"><P>6. Its is primary duty of the parents and guardians to keep themself update with the due dates and payments procedure of the fees from class teacher/ school authority from time to time.</P></h5>
+                               <h5 style="text-align:justify;"><P>7. Second Fee Memo is issued, if even on that parents fails to revert back with fees payment, Third and final is issued. However the school authority has right to take strict disciplinary action against the FDL student after giving first memo only.</P></h5>
+                               <h5 style="text-align:justify;"><P>8. College has facility for such parents, they need to fill Late Payment Fee Request (LPFR) Form, available at Clerk office. A Written application along with the LPFR form is to be submitted on time.</P></h5>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid" style="background-color:rgb(33, 31, 31);">
+        <div class="row col-12">
+          <div class="footer-partition mt-5 ml-3">
+            <!-- <img src="img/Stanbw.png" height="100px" width="100px" style="margin-left:auto;margin-right:auto;display:block"> -->
+            <h4 style="text-transform:uppercase;padding-top:6px;text-align:center;">Stanford Institute Of Technology</h4>
+          </div>
+          <div class="footer-partition mt-5 ml-2">
+            <h6 style="padding-left:39px;padding-top:10px">Stanford Institute of Technology</h6>
+            <ul>
+              <li>Edward H. Levi Hall</li>
+              <li>5801 S. Ellis Ave.</li>
+              <li>Chicago,IL 60637</li>
+            </ul>
+          </div>
+          <div class="footer-partition mt-5 ml-2">
+            <ul style="text-decoration:underline;line-height: 40px;cursor:pointer;">
+              <li>Title IX</li>
+              <li>Non-Discrimination Statement</li>
+              <li>Accreditation/IBHE Resolution</li>
+              <li>Emergency Info</li>
+              <li>Job Opportunities</li>
+              <li>Make A Gift</li>
+              <li>Accesibility</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+          <div class="footer-partition mt-5 ml-2">
+            <ul style="text-decoration:underline;line-height: 40px;cursor:pointer;">
+              <li>Visit UCalifornia</li>
+              <li>Campus Directory</li>
+              <li>Contact Us</li>
+              <li>Maps & Directions</li>
+              <li>My.UCalifornia</li>
+              <li>Office 365</li>
+              <li>A-Z Listing</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="row justify-content-end" style="margin-right:172px">
+          <i class="fa-brands fa-facebook-f" style="margin-left:15px"></i>
+          <i class="fa-brands fa-instagram" style="margin-left:15px"></i>          
+          <i class="fa-brands fa-linkedin-in" style="margin-left:15px"></i>
+          <i class="fa-brands fa-twitter" style="margin-left:15px"></i>
+          <i class="fa-brands fa-youtube" style="margin-left:15px"></i>
+        </div>
+    
+        <hr style=" background-color:black">
+        <div class="row justify-content-center text-white">
+          <i class="fa-sharp fa-regular fa-copyright" style="font-size:12px;padding-top:6px"></i><p style="font-weight:bolder">2023 Stanford University of Technology</p>
+        </div>
+      </div>
+    <script>
+        function showBca(){
+            document.getElementById('BCA').style.display="block";
+            document.getElementById('BBA').style.display="none";
+            document.getElementById('CSE').style.display="none";
+            document.getElementById('MCA').style.display="none";
+            document.getElementById('MBA').style.display="none";
+            document.getElementById('DEF').style.display="none";
+            document.getElementById('BSC').style.display="none";
+        }
+        function showBba(){
+            document.getElementById('BCA').style.display="none";
+            document.getElementById('BBA').style.display="block";
+            document.getElementById('CSE').style.display="none";
+            document.getElementById('MCA').style.display="none";
+            document.getElementById('MBA').style.display="none";
+            document.getElementById('DEF').style.display="none";
+            document.getElementById('BSC').style.display="none";
+        }
+        function showCse(){
+            document.getElementById('BCA').style.display="none";
+            document.getElementById('BBA').style.display="none";
+            document.getElementById('CSE').style.display="block";
+            document.getElementById('MCA').style.display="none";
+            document.getElementById('MBA').style.display="none";
+            document.getElementById('DEF').style.display="none";
+            document.getElementById('BSC').style.display="none";
+        }
+        function showMca(){
+            document.getElementById('BCA').style.display="none";
+            document.getElementById('BBA').style.display="none";
+            document.getElementById('CSE').style.display="none";
+            document.getElementById('MCA').style.display="block";
+            document.getElementById('MBA').style.display="none";
+            document.getElementById('DEF').style.display="none";
+            document.getElementById('BSC').style.display="none";
+        }
+        function showMba(){
+            document.getElementById('BCA').style.display="none";
+            document.getElementById('BBA').style.display="none";
+            document.getElementById('CSE').style.display="none";
+            document.getElementById('MCA').style.display="none";
+            document.getElementById('MBA').style.display="block";
+            document.getElementById('DEF').style.display="none";
+            document.getElementById('BSC').style.display="none";
+        }
+        function showBsc(){
+            document.getElementById('BCA').style.display="none";
+            document.getElementById('BBA').style.display="none";
+            document.getElementById('CSE').style.display="none";
+            document.getElementById('MCA').style.display="none";
+            document.getElementById('MBA').style.display="none";
+            document.getElementById('DEF').style.display="none";
+            document.getElementById('BSC').style.display="block";
+        }
+        function showpendingfees(){
+            document.getElementById('payment1').style.display="block";
+        }
+        function stoppendingfees(){
+            document.getElementById('payment1').style.display="none";
+        }
+        function showofflinepayments(){
+            document.getElementById('payment2').style.display="block";
+        }
+        function stopofflinepayments(){
+            document.getElementById('payment2').style.display="none";
+        }
+        function showonlinepayments(){
+            document.getElementById('payment3').style.display="block";
+        }
+        function stoponlinepayments(){
+            document.getElementById('payment3').style.display="none";
+        }
+    </script>
+</body>
+</html>

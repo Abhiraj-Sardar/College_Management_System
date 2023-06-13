@@ -1,0 +1,1 @@
+In the index folder,the index.html file is the starting point/the origin of the library management section.

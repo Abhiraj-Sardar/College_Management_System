@@ -1,0 +1,105 @@
+﻿body{
+	margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+h2{
+	text-align:center;
+	font-size:40px;
+	padding-top:45px;
+}
+
+ul li{
+	list-style:none;
+	padding-bottom:50px;
+}
+
+/* Header Panel Css */
+
+.exam-section{
+	height:70px;
+	background-color: #da2222;
+	margin-top:15px;
+}
+
+.place-exam-section{
+	height:50px;
+	width:550px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	text-align: center;
+	border-radius:7px;
+}
+
+/* END of Header Panel */
+
+.tble{
+  	height: auto;
+    	background-color: #da2222;
+    	border-radius: 10px;
+    	padding-bottom: 10px;		/* For Table */
+	box-shadow: 0px 0px 30px 0px;
+}
+
+.tble table tr td{
+    	border: none;
+   	 color: #fff;
+    	padding-top: 3px;
+    	padding-bottom: 5px;
+}
+
+.tble table td{
+    	border: none;
+   	 color: black;
+    	padding-top: 3px;
+    	padding-bottom: 5px;
+	width:325px;
+	border-radius:10px;
+	font-weight: bolder;
+	font-size:large;
+	text-align: center;
+}
+
+.school table tr th {
+    	color: #fff;
+    	padding: 5px 40px;
+    	border: 0.1px solid #fff;
+		border-radius: 10px;
+	text-align:center;			/* For 1st Table */
+	font-weight: bolder;
+}
+.school table tr td{
+	color:black;
+
+    	padding: 2px 30.6px;
+		text-align:center;
+		background-color:white;
+		border-radius:10px;
+}   
+
+.school2 table tr th {
+	color: #fff;
+	padding: 5px 40px;
+	border: 0.1px solid #fff;
+	border-radius: 10px;
+text-align:center;			/* For 2nd Table */
+font-weight: bolder;
+}
+.school2 table tr td{
+	color:black;
+	padding: 2px 38px;
+	text-align:center;
+	background-color:white;
+	border-radius:10px;
+}
+
+.tabl{
+	height: auto;
+	  background-color: #da2222;
+	  border-radius: 10px;
+	  padding-bottom: 10px;		
+  box-shadow: 0px 0px 30px 0px;
+}

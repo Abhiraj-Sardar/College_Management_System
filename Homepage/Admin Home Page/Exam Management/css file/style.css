@@ -1,0 +1,343 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color: #eee;
+	/* font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display SC', serif; */
+	font-family: 'PT Serif', serif;
+	/* font-family: 'Work Sans', sans-serif; */
+}
+/* heading line */
+.header{
+	height:auto;
+	width:100%;
+	background-color: #da2222;
+}
+.header_partition{
+	display:inline-block;
+	height:40px;
+	width:33.1%;
+	/* border:2px solid blue; */
+}
+.header .header_partition .contact,.Email,.social-media{
+	border-radius:9px;
+}
+/* contact option */
+.contact{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 160px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.contact:hover{
+	background-color: brown;
+}
+.contact-list{
+	display:none;
+}
+.contact:hover .contact-list{
+	background-color:#fff;
+	border:1px solid black;
+	display:block;
+}
+.contact:hover .contact-list a{
+	background-color:#fff;
+	color:red;
+	text-decoration:none;
+}
+/* end of contact option */
+/* email option */
+.Email{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 180px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.Email-list{
+	display:none;
+}
+
+.Email:hover{
+	background-color:brown;
+}
+
+.Email:hover .Email-list{
+	display:block;
+	background-color:#fff;
+}
+
+.Email:hover .Email-list a{
+	color:red;
+	text-decoration:none;
+}
+/* end of email option */
+/* start of social-media */
+.social-media{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 160px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.social-media:hover{
+	background-color: brown;
+}
+.social-list{
+	display:none;
+}
+
+.social-media:hover .social-list{
+	display:block;
+	background-color: #fff;
+}
+.social-media:hover .social-list a{
+	color:red;
+	text-decoration:none;
+}
+/* end of social-media */
+.logo{
+	height:200px;
+	
+}
+.college-name{
+	text-align:center;
+	margin-top:20px;
+	
+}
+
+.exam-section{
+	height:auto;
+	/* background-color: #da2222; */
+	margin-top:-38px;
+}
+.place-exam-section{
+	height:auto;
+	width:40%;
+	margin-top:10px;
+	margin-left:450px;
+	background-color:#fff;
+	text-align: center;
+	border-radius:7px;
+}
+/* end of heading portion */
+.menu1{
+	height:auto;
+	float:left;
+	/* border:2px solid black; */
+	margin:2px 150px 2px 2px;
+}
+.label1{
+	text-align:center;
+	/* border:2px solid black; */
+}
+.label1 h6{
+	background-color:#eec958;
+	border-radius:5px;
+	/* border:2px solid black; */
+}
+.ongoing-exam{
+	height:150px;
+	/* border:2px solid black; */
+}
+.ongoing-exam button{
+	height:100px;
+	width:80%;
+	float:right;
+	background-color:#eb5858;
+	text-align:center;
+	border-radius:7px;
+	box-shadow:9px 7px 8px #0f0a0a;
+	margin-right:10px;
+	border:2px solid black;
+	border:none;
+}
+.ongoing-exam button:hover{
+	box-shadow:none;
+	background-color: #fbd051;
+}
+.no{
+	height:auto;
+	width:20%;
+	float:right;
+	text-align:center;
+	display:none;
+	margin-right:120px;
+}
+/* exam status start */
+.exam-status{
+	height:auto;
+	/* border:2px solid #000; */
+}
+.total-exam{
+	height:100px;
+	width:100%;
+	float:right;
+	background-color:#1C82AD;
+	margin-top:5px;
+	border-radius:10px;
+	text-align:center;
+	box-shadow:5px 10px 18px #888888;
+	padding-top:12px;
+}
+.upcoming-exam{
+	height:100px;
+	width:100%;
+	float:right;
+	margin-top:20px;
+	background-color:#88A47C;
+	border-radius:10px;
+	text-align:center;
+	box-shadow:5px 10px 18px #888888;
+	padding-top:12px;
+}
+.complete-exam{
+	height:100px;
+	width:100%;
+	float:right;
+	margin-top:20px;
+	background-color:#FF7000;
+	border-radius:10px;
+	box-shadow:5px 10px 18px #888888;
+	text-align:center;
+	padding-top:12px;
+}
+/* exam status ends */
+/* type of exam start*/
+.type-of-exam{
+	height:auto;
+	/* border:2px solid #000; */
+	margin-top:0px;
+	margin-bottom:-50px;
+}
+.conduct-sem-exam{
+	height:auto;
+	width:37%;
+	float:left;
+	/* border:2px solid black; */
+	/* background-color:#f0d06e; */
+	padding:20px 20px;
+	margin-top:100px;
+	border-radius:5%;
+	box-shadow:5px 10px 18px #888888;
+	margin-left:70px;
+	border:2px solid #e6b31a;
+}
+.conduct-sem-exam h2{
+	font-size: 24px!important;
+}
+.conduct-sem-exam:hover{
+	background-color:#cf667b;
+	color:#fff;
+}
+.conduct-mock-exam{
+	height:auto;
+	width: 37%;
+	float:left;
+	/* border:2px solid black; */
+	/* background-color:#f0d06e; */
+	padding:20px 20px;
+	margin-top:100px;
+	border-radius:5%;
+	box-shadow:5px 10px 18px #888888;
+	margin-left:70px;
+	border:2px solid #e6b31a;
+
+}
+.conduct-mock-exam h2{
+	font-size: 24px!important;
+}
+.conduct-mock-exam:hover{
+	background-color:#e45f7a;
+	color:#fff;
+}
+.exam-information{
+	height:auto;
+	border:2px solid black;
+	margin-top:40px;
+	margin-bottom:40px;
+	border-radius:5px;
+	box-shadow:5px 10px 18px #888888;
+	border:none;
+	background-color: #cac7c7;
+}
+.placeholder-info{
+	height:auto;
+	text-align:center;
+	/* margin-top:170px;
+	margin-left:350px;
+	margin-right:350px; */
+	/* border:2px solid black; */
+	display:block;
+	
+}
+/* .conduct-sem-exam-info h4 input[type="text"]{
+	margin-left:5px;
+}
+.conduct-sem-exam-info select{
+	margin:-40px 500px;
+} */
+.conduct-sem-exam-info .container .row .col-12 span{
+	font-size:24px;
+	margin:2px 200px 0px 5px;
+}
+.exam-schedule .col-12 table thead tr th{
+	padding-top:15px;
+	padding-right:100px;
+	padding-left:40px;
+}
+.conduct-sem-exam-info{
+	display:none;
+}
+.conduct-mock-exam-info{
+	display:none;
+}
+.conduct-mock-exam-info img{
+	margin-top:190px;
+	margin-bottom:150px;
+	border-radius:9px;
+	box-shadow:9px 10px 18px black;
+}
+.testimonials{
+	/* background-color:#c6bdbd; */
+	border:none;
+
+}
+.testimonials h5,h2{
+	text-align:center;
+	text-decoration: solid;
+}
+.footer-partition{
+    width:24%;
+    color:white;
+    /* background-color: #da2222; */
+    height:auto;
+}
+
+h6{
+    font-weight:bolder;
+}
+.footer-partition ul li{
+    list-style:none !important;
+    display:block !important;
+    font-size:15px;
+}
+i{
+    color:black;
+    /* padding-left:15px; */
+    cursor:pointer;
+}
+.hello i{
+	color:white;
+}
+
+/* End of Footer Area */

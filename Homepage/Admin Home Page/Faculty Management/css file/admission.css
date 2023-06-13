@@ -1,0 +1,83 @@
+﻿body{
+	margin: 0px;
+    	padding: 0px;
+    	text-decoration: none;
+}
+
+.about {
+	height:auto;
+    	padding: 0px 10px 46px 0px;
+    	text-align: center;		/* Container for Logo and College Name */
+    	color: white;
+    	background: #da2222;
+	font-size:26.5px;
+}
+
+.about .about-logo {
+	height:148px;;
+	width:200px;
+    	padding: 0px;			/* Obsolete */
+       					/* Container for Logo and College Name */
+    	background: white;
+	font-size:26.5px;
+}
+
+h2{
+	text-align:center;
+	font-size:40px;
+	padding-top:45px;
+}
+
+.form{
+  	height: auto;
+    	background-color: #da2222;
+    	border-radius: 10px;
+    	padding-bottom: 10px;		/* For Form */
+	box-shadow: 0px 0px 30px 0px;
+}
+
+.form table tr td{
+    	border: none;
+   	 color: #fff;
+    	padding-top: 3px;
+    	padding-bottom: 5px;
+}
+
+.form table tr td input[type="text"], input[type="date"], input[type="email"], input[type="file"]{
+    	width: 325px;
+    	border-radius: 10px;
+}
+
+.form table tr td select{
+    	width: 325px;
+    	border-radius: 10px;
+}
+
+.school table tr th {
+    	color: #fff;
+    	padding: 10px 40px;
+    	border: 0.1px solid #fff;
+	text-align:center;			/* For 1st Table */
+}
+.school table tr td{
+	color:#fff;
+    	border: 0.1px solid #fff;
+    	padding: 4px;
+}
+.school table tbody tr td input[type="text"]{
+    	width: 128px!important;
+	border-radius:0px;
+}
+
+.school2 table tbody tr td input[type="text"]{    /* For 2nd Table input area */
+    	width: 151px!important;
+	border-radius:0px;
+}
+
+.btn {
+    display: block;
+    float: left;
+}
+.btn input[type="submit"], input[type="reset"]{
+    padding: 8px 40px;
+}

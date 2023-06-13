@@ -1,0 +1,185 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+/* heading line */
+.header{
+	height:40px;
+	width:100%;
+	background-color: #da2222;
+}
+.header_partition{
+	display:inline-block;
+	height:40px;
+	width:33.1%;
+	/* border:2px solid blue; */
+}
+/* contact option */
+.contact{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 160px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.contact:hover{
+	background-color: brown;
+}
+.contact-list{
+	display:none;
+}
+.contact:hover .contact-list{
+	background-color:#fff;
+	display:block;
+}
+.contact:hover .contact-list a{
+	background-color:#fff;
+	color:red;
+	text-decoration:none;
+}
+/* end of contact option */
+/* email option */
+.Email{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 180px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.Email-list{
+	display:none;
+}
+
+.Email:hover{
+	background-color:brown;
+}
+
+.Email:hover .Email-list{
+	display:block;
+	background-color:#fff;
+}
+
+.Email:hover .Email-list a{
+	color:red;
+	text-decoration:none;
+}
+/* end of email option */
+/* start of social-media */
+.social-media{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 160px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.social-media:hover{
+	background-color: brown;
+}
+.social-list{
+	display:none;
+}
+
+.social-media:hover .social-list{
+	display:block;
+	background-color: #fff;
+}
+.social-media:hover .social-list a{
+	color:red;
+	text-decoration:none;
+}
+/* end of social-media */
+.logo{
+	height:200px;
+	
+}
+.college-name{
+	text-align:center;
+	margin-top:70px;
+}
+.exam-section{
+	height:70px;
+	background-color: #da2222;
+	margin-top:15px;
+}
+.place-exam-section{
+	height:50px;
+	width:40%;
+	margin-top:10px;
+	margin-left:auto;
+  margin-right: auto;
+	background-color:#fff;
+	text-align: center;
+	border-radius:7px;
+}
+.social-media:hover,.contact:hover,.Email.Email:hover
+{
+    cursor: pointer;
+}
+/* end of heading portion */
+
+/* Style the leftside navigation */
+.content-container .content-left {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  background-color: rgb(89, 146, 221);
+  overflow-x: hidden;
+}
+/* Side navigation links */
+.content-left a{
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color on hover */
+.content-left a:hover {
+  background-color: rgb(31, 110, 214);
+  color: black;
+  cursor: pointer;
+}
+.content-container .content-middle
+{
+    position: fixed;
+    margin-left: 276px;
+    margin-right:auto;
+}
+.content-container .content-right
+{
+  height: 100%;
+  float:right;
+  width: 21.45%;
+  background-color: rgb(89, 146, 221);
+  z-index: 1;
+  right: 0;
+  position: fixed;
+}
+.content-right a{
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color on hover */
+.content-right a:hover {
+  background-color: rgb(31, 110, 214);
+  color: black;
+}
+.content-middle
+{
+  height: 470px;
+  width: 930px;
+}
+.image
+{
+  height: 470px;
+  width: 930px;
+}

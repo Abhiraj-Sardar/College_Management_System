@@ -1,0 +1,525 @@
+<!doctype html>
+<html>
+<head>
+<title>Admission Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="admission.css">
+</head>
+
+<body>
+
+
+<div class="col-sm-12 about align-items-center">
+
+<img class="img-fluid" style="float:left;padding:5px 16px 0px 16px; margin-left:10px" src="Stan.png" alt="college logo" height="140px" width="160px">
+
+<h2 class="h2a" style="margin-right:50px">Stanford Institute of Technology</h2>
+
+</div>
+</div>
+
+<div class="container mt-5">
+
+<hr style="background:black">
+<h1 class="text-center mt-3 mb-4">Student Admission Form</h1>
+<hr style="background:black;">
+<br>
+<form>
+<div class="row">
+<div class="col-12 form">
+<h3 class="text-center text-white pt-3">Personal Details</h3><hr style="background-color: white">
+
+<div class="row">
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Name <span style="color:white">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="name" class="form-control" placeholder="Enter Your Name" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Mobile Number <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="mobile" class="form-control" placeholder="Enter Your Mobile Number" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Email ID <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="email" name="mail" class="form-control" placeholder="abc@gmail.com" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Date of Birth <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="date" name="dob" class="form-control" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Gender <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td>
+<select name="gender" class="form-control" required>
+<option disabled selected value="">--Select Your Gender--</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Address <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="addr" class="form-control" placeholder="Enter Your Address" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>District <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="district" class="form-control" placeholder="Enter Your District" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>State <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="state" class="form-control" placeholder="Enter Your State" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Category <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td>
+<select name="gender" class="form-control" required>
+<option disabled selected value="">--Select Your Category--</option>
+<option value="SC">SC</option>
+<option value="ST">ST</option>
+<option value="OBC">OBC</option>
+<option value="General">General</option>
+</select>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Religion <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td>
+<select name="rel" required class="form-control">
+<option disabled selected value="">--Select Your Religion</option>
+<option value="hindu">Hindu</option>
+<option value="islam">Islam</option>
+<option value="sikh">Sikh</option>
+<option value="christian">Christian</option>
+<option value="other">Other</option>
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Profile Picture <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="file" name="image" class="form-control" placeholder="Enter Your Profile Picture" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Signature <span style="color: #fff;">*</span></td>
+</tr>
+<tr>
+<td><input type="file" name="sign" class="form-control" placeholder="Enter Your Signature" required></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row mt-5">
+<div class="col-12 form">
+<h3 class="text-center text-white pt-3">Guardian Details</h4><hr style="background: #fff;">
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Father's Name <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="fname" class="form-control" placeholder="Enter Your Father's Name" required></td>
+</tr>
+</table>
+</div>
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Father's Mobile Number <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="fnum" class="form-control" placeholder="Enter Your Father's Mobile Number" required></td>
+</tr>
+</table>
+</div>
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Father's Email <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="email" name="fmail" class="form-control" placeholder="Enter Your Father's Email" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Educational Qualification <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="fedu" class="form-control" placeholder="Enter Father's Educational Qualification" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Occupation <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="focup" class="form-control" placeholder="Enter Your Father's Occupation" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Mother's Name <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="mname" class="form-control" placeholder="Enter Your Mother's Name" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div class="row">
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Mother's Mobile Number <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="mnum" class="form-control" placeholder="Enter Your Mother's Mobile Number" required></td>
+</tr>
+</table>
+</div>
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Mother's Email <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="email" name="memail" class="form-control" placeholder="Enter Your Mother's Email" required></td>
+</tr>
+</table>
+</div>
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Educational Qualifications <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="medu" class="form-control" placeholder="Enter Mother's Educational Qualifications" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div class="row">
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Occupation <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="mocu" class="form-control" placeholder="Enter Your Mother's Occupation" required></td>
+</tr>
+</table>
+</div>
+
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Father's Photo <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="file" name="fimg" class="form-control" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Mother's Photo <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="file" name="mimg" class="form-control" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="row mt-5">
+<div class="col-12 form">
+<h3 class="text-center text-white pt-3">School Details</h3><hr style="background: #fff;">
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>School Name <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="school1" class="form-control" placeholder="Enter Your School Name" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Board <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="board1" class="form-control" placeholder="Enter Your Education Board" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Year of Passing <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="year1" class="form-control" placeholder="Enter Your Passing Year" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+<h4 class="text-center text-white pt-1">Marks in Tenth Grade Examination</h4>
+
+<div class="row school">
+<div class="col-12">
+<table class="table table-responsive">
+<tr>
+<th>Subjects</th>
+<td><input type="text" name="subject1" class="form-control" placeholder="First Subject"></td>
+<td><input type="text" name="subject2" class="form-control" placeholder="Second Subject"></td>
+<td><input type="text" name="subject3" class="form-control" placeholder="Third Subject"></td>
+<td><input type="text" name="subject4" class="form-control" placeholder="Fourth Subject"></td>
+<td><input type="text" name="subject5" class="form-control" placeholder="Fifth Subject"></td>
+<td><input type="text" name="subject6" class="form-control" placeholder="Sixth Subject"></td>
+<td><input type="text" name="subject7" class="form-control" placeholder="Seventh Subject"></td>
+</tr>
+
+<tr>
+<th>Marks</th>
+<td><input type="text" name="marks1" class="form-control" placeholder="First Marks"></td>
+<td><input type="text" name="marks2" class="form-control" placeholder="Second Marks"></td>
+<td><input type="text" name="marks3" class="form-control" placeholder="Third Marks"></td>
+<td><input type="text" name="marks4" class="form-control" placeholder="Fourth Marks"></td>
+<td><input type="text" name="marks5" class="form-control" placeholder="Fifth Marks"></td>
+<td><input type="text" name="marks6" class="form-control" placeholder="Sixth Marks"></td>
+<td><input type="text" name="marks7" class="form-control" placeholder="Seventh Marks"></td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div class="row">
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>School Name <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="school1" class="form-control" placeholder="Enter Your School Name" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Board <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="board1" class="form-control" placeholder="Enter Your Education Board" required></td>
+</tr>
+</table>
+</div>
+
+<div class="col-12 col-md-4">
+<table class="table table-responsive">
+<tr>
+<td>Year of Passing <span style="color:#fff">*</span></td>
+</tr>
+<tr>
+<td><input type="text" name="year1" class="form-control" placeholder="Enter Your Passing Year" required></td>
+</tr>
+</table>
+</div>
+</div>
+
+<h4 class="text-center text-white pt-1">Marks in Twelvth Grade Examination</h4>
+
+<div class="row school school2">
+<div class="col-12">
+<table class="table table-responsive">
+<tr>
+<th>Subjects</th>
+<td><input type="text" name="subject1" class="form-control" placeholder="First Subject"></td>
+<td><input type="text" name="subject2" class="form-control" placeholder="Second Subject"></td>
+<td><input type="text" name="subject3" class="form-control" placeholder="Third Subject"></td>
+<td><input type="text" name="subject4" class="form-control" placeholder="Fourth Subject"></td>
+<td><input type="text" name="subject5" class="form-control" placeholder="Fifth Subject"></td>
+<td><input type="text" name="subject6" class="form-control" placeholder="Sixth Subject"></td>
+</tr>
+
+<tr>
+<th>Marks</th>
+<td><input type="text" name="marks1" class="form-control" placeholder="First Marks"></td>
+<td><input type="text" name="marks2" class="form-control" placeholder="Second Marks"></td>
+<td><input type="text" name="marks3" class="form-control" placeholder="Third Marks"></td>
+<td><input type="text" name="marks4" class="form-control" placeholder="Fourth Marks"></td>
+<td><input type="text" name="marks5" class="form-control" placeholder="Fifth Marks"></td>
+<td><input type="text" name="marks6" class="form-control" placeholder="Sixth Marks"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row mt-2 mb-5">
+<div class="col-12 m-0 p-0">
+<table  class="ml-2">
+<tr>
+<td><b>I accept all Terms & Conditions</td>
+<td class="pl-1"><input type="checkbox" name="box" required></td>
+</tr>
+</table>
+
+<div class="btn m-0 p-0">
+<table>
+<tr>
+<td><input type="submit" name="ok" value="Submit" class="btn btn-outline-success">
+<input type="reset" value="Reset" class="btn btn-outline-danger ml-2">
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>

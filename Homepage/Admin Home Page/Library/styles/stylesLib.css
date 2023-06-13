@@ -1,0 +1,171 @@
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(226, 218, 218);
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: rgb(62, 52, 52);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: rgb(138, 133, 133);
+    color: rgb(36, 34, 34);
+  }
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+  /*Navbar Top*/
+ .navtop
+ {
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .sidenav-x
+ {
+    height: 100%;
+    width: 350px;
+    float:right;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(250, 243, 243);
+    overflow-x: hidden;
+    border-style:ridge;
+    border-right: 5px black;
+    border-bottom: 5px;
+    border-top: 5px;
+ }
+ .review-btn
+ {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color: rgb(226, 218, 218);
+    font-size: 25px;
+    padding: 10px;
+ }
+ p
+ {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    padding: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+ } 
+ ul{
+    list-style: none;
+ }
+ .listI
+ {
+    margin-right: 10px;
+    text-align:justify;
+    padding: 5px;
+    padding-bottom: 30px;
+    border-style:ridge;
+    border-top: 5px;
+    border-right: 5px;
+    border-left: 5px;
+ }
+ .listI:hover
+ {
+    cursor: pointer;
+    background-color: rgb(138, 133, 133);
+ }
+ .conditionA
+ {
+    float: right;
+    font-size: small;
+    color: rgb(42, 210, 42);
+ }
+ .conditionB
+ {
+  float: right;
+    font-size: small;
+    color: red
+ }
+ #myChart
+ {
+   padding-top: 55px;
+   margin-left: 200px;
+   max-width: 950px;
+ }
+ .stat-text
+ {
+   display: flex;
+   padding-top: 40px;
+   margin-left: 300px;
+   padding-right: 40px;
+ }
+ .feat
+ {
+   background-color: rgb(129, 202, 21);
+   border-style:dashed;
+   border-radius: 10px;
+ }
+ .feat:hover
+ {
+   background-color: green;
+ }
+ .feat p
+ {
+   font-size: 17px;
+ }
+ .text
+ {
+   padding-top: 20px;
+   text-align: center;
+ }
+ .num
+ {
+   text-align: center;
+ }
+ #rightheading
+ {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+ }
+ #show:hover
+ {
+  cursor: pointer;
+ }
+ .conditionAx
+ {
+    color: rgb(21, 191, 21);
+ }
+ .conditionBx
+ {
+  color: red;
+ }
+.bottom
+{
+  margin-top: 140px;
+  background-color: rgb(61, 59, 59);
+  color:rgb(61, 59, 59) ;
+}
+.stat-text
+{
+  margin-left: 50px;
+  background-color: #e3f2fd;
+  height: 100px;
+}

@@ -1,0 +1,180 @@
+body{
+	margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+	font-family: 'PT Serif', serif;
+	background:#eee;
+}
+
+ul li{
+	list-style:none;
+}
+
+/* Header Panel Css */
+
+.exam-section{
+	height:70px;
+	background-color: #eee;
+	margin-top:15px;
+}
+
+.place-exam-section{
+	height:50px;
+	width:580px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#eee;
+	text-align: center;
+	border-radius:7px;
+}
+
+/* End of Header */
+
+/* Start of Button Body */
+
+.btnarea{
+    width:35%;
+    height:auto;
+    /* background-color:#da2222; */
+    border-radius:5px;
+}
+
+button{
+	font-size:18px;
+	border:none;
+	box-shadow:0px 0px 15px 0px black;
+}
+
+.crs-btn button{
+	height:auto;
+	width:300px;
+	background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:30px;
+	text-align:center;
+	color:white;
+	font-size:22px;
+}
+
+.crs-btn button:hover{
+	background:wheat;
+	color:black;
+}
+
+/* End of Button Body */
+
+/* Start of List Body */
+
+.studlist{
+    width:64.2%;
+    height:auto;
+    background: #e52d27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-left:5px solid white;
+    border-right:5px solid white;
+    border-radius:10px;
+    border-style: dashed;
+    float:right;
+}
+
+.stud-head{
+    margin-top:40px;
+    text-align:center;
+    color:white;
+}
+.tble table tr td{
+	height:50px;
+    width:fit-content;
+	color:black;
+	padding: 2px 28px;
+	text-align:center;
+	background-color:white;
+	border-radius:10px;
+	font-weight: bolder;
+	font-size:18px;
+    border-collapse:collapse;
+}
+
+/* End of List Body */
+
+.form table tr td input[type="text"]{
+	width: 220px;
+	border-radius: 10px;
+}
+.form table tr td select{
+	width: 220px;
+	border-radius: 10px;
+}
+.btn {
+    display: block;
+    float: left;
+}
+.btn input[type="submit"], input[type="reset"]{
+    padding: 8px 40px;
+}
+.form{
+	height: auto;
+	  background-color: #da2222;
+	  border-radius: 10px;
+	  padding-bottom: 10px;		/* For Form */
+  box-shadow: 0px 0px 30px 0px;
+  border-style: dashed;
+}
+
+.tble1 table tr td{
+	height:50px;
+    width:fit-content;
+	color:black;
+	padding: 0px;
+	text-align:center;
+	/* background-color:white; */
+	border-radius:10px;
+	font-weight: bolder;
+	font-size:16px;
+    border-collapse:collapse;
+}
+
+/* Start of Extention */
+
+.ext{
+	background-color:antiquewhite;
+	/* box-shadow: 0px 0px 15px 0px black; */
+	border-radius:5px;
+	/* text-align:center; */
+}
+.card{
+	cursor: pointer;
+}
+
+/* End of Extension */
+
+/* Start of Footer Area */
+
+.footer-partition{
+    width:24%;
+    color:white;
+    /* background-color: #da2222; */
+    height:auto;
+}
+
+h6{
+    font-weight:bolder;
+}
+.footer-partition ul li{
+    list-style:none !important;
+    display:block !important;
+    font-size:15px;
+}
+i{
+    color:white;
+    /* padding-left:15px; */
+    cursor:pointer;
+}
+
+/* End of Footer Area */

@@ -1,0 +1,171 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	height:40px;
+	width:100%;
+	background-color: #da2222;
+}
+.header_partition{
+	display:inline-block;
+	height:40px;
+	width:33.1%;
+	
+}
+
+.contact{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 160px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.contact:hover{
+	background-color: brown;
+}
+.contact-list{
+	display:none;
+}
+.contact:hover .contact-list{
+	background-color:#fff;
+	display:block;
+}
+.contact:hover .contact-list a{
+	background-color:#fff;
+	color:red;
+	text-decoration:none;
+}
+
+.Email{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 180px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.Email-list{
+	display:none;
+}
+
+.Email:hover{
+	background-color:brown;
+}
+
+.Email:hover .Email-list{
+	display:block;
+	background-color:#fff;
+}
+
+.Email:hover .Email-list a{
+	color:red;
+	text-decoration:none;
+}
+
+.social-media{
+	height:auto;
+	width:30%;
+	background-color:#da2222;
+	margin:5px 160px 5px 0px;
+	float:right;
+	border:2px solid #fff; 
+	text-align:center;
+}
+.social-media:hover{
+	background-color: brown;
+}
+.social-list{
+	display:none;
+}
+
+.social-media:hover .social-list{
+	display:block;
+	background-color: #fff;
+}
+.social-media:hover .social-list a{
+	color:red;
+	text-decoration:none;
+}
+
+.logo{
+	height:200px;
+	
+}
+.college-name{
+	text-align:center;
+	margin-top:70px;
+}
+
+.exam-section{
+	height:70px;
+	background-color: #da2222;
+	margin-top:15px;
+}
+.place-exam-section{
+	height:50px;
+	width:40%;
+	margin-top:10px;
+	margin-left:450px;
+	background-color:#fff;
+	text-align: center;
+	border-radius:7px;
+}
+.dept{
+   height:auto;
+   width:40%
+   margin-top:10px;
+   margin-left:40px;
+   text-align: center;
+   border-radius:7px;
+}
+.yellow{
+ height: 300px;
+ width: 30%;
+ float: left;
+ background-color: rgba(255, 0, 0, 0.555);
+}
+.notice{
+  height: 70px;
+  margin-left:70px;
+}
+.dept button{
+ height:100px;
+ width:100px;
+ margin-right:130px;
+ background-color:rgba(255, 0, 0, 0.555);
+}
+.facul_no{
+ text-align:right;
+ padding-top:50px;
+ padding-right:100px;
+}
+.notice2{
+ text-align:right;
+ padding-right:250px;
+ padding-top:50px;
+}
+.dept1 button{
+  box-shadow:10px 10px 5px lightblue;
+  margin-top:5px;
+  padding-left:80px;
+  padding-right:80px;
+  background-color:rgba(255, 0, 0, 0.555);
+  border:none;
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size: 50px;
+  border:5px solid gray;
+}
+.red{ 
+  background-color:#FF0000;
+  height:30px;
+  width:100%;
+}
+

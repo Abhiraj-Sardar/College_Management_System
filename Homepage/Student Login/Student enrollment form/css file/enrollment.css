@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    height:auto;
+    /* border:2px solid black; */
+}
+.logo{
+    height:auto;
+    /* border:2px solid red; */
+}
+.college-name{
+    height:auto;
+    text-align:center;
+    margin-top:35px;
+}
+.student-portal-section{
+    height:auto;
+    /* border:2px solid black; */
+    /* background-color:#da2222; */
+}
+.student-portal-name{
+    height:auto;
+    /* border:2px solid red; */
+    text-align:center;
+    /* border-radius:7px; */
+    margin:5px 0px;
+}
+.student-portal-name h2{
+   padding:14px 0px;
+   background-color:#fff;
+   border-radius:7px;
+   
+}
+.form{
+    border-radius:9px;
+}
+.form input,select{
+    height:35px;
+    width:320px;
+    border-radius:9px;
+}
+.form h3 span{
+    color:red;
+}
+.form .sem h4{
+    text-align:justify;
+}
+.form .sem input{
+    border-radius:9px;
+}
+.subject-table{
+    text-align:center;
+}

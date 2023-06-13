@@ -1,0 +1,465 @@
+body{
+	margin: 0px;
+    padding: 0px;
+	background-color: #eee;
+    text-decoration: none;
+	font-family: 'PT Serif', serif;
+    
+}
+
+ul li{
+	list-style:none;
+	padding-bottom:50px;
+}
+
+/* Header Panel Css */
+
+.exam-section{
+	height:70px;
+	margin-top:15px;
+	border-top:3px solid red;
+	border-bottom:3px solid red;
+}
+
+.place-exam-section{
+	height:50px;
+	width:550px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#eee;
+	text-align: center;
+	border-radius:7px;
+}
+
+/* End of Header Panel */
+
+/* Start of Button Section */
+
+.abt{
+    width:70%;
+    height:auto;
+    /* background-color:#da2222; */
+    border-radius:5px;
+}
+
+button{
+	font-size:18px;
+	border:none;
+	box-shadow:0px 0px 15px 0px black;
+}
+
+.course-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+.course-btn a{
+	text-decoration:none;
+	color:white;
+}
+
+.course-btn button:hover{
+	background:wheat;
+	color:black;
+}
+.course-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+
+.stud-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+.stud-btn a{
+	text-decoration:none;
+	color:white;
+}
+
+.stud-btn button:hover{
+	background:wheat;
+	color:black;
+}
+.stud-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+
+.fac-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+.fac-btn a{
+	text-decoration:none;
+	color:white;
+}
+
+.fac-btn button:hover{
+	background:wheat;
+	color:black;
+}
+.fac-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+
+.fees-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+.fees-btn a{
+	text-decoration:none;
+	color:white;
+}
+
+.fees-btn button:hover{
+	background:wheat;
+	color:black;
+}
+.fees-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+
+.lib-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+.lib-btn a{
+	text-decoration: none;
+	color:white;
+}
+
+.lib-btn button:hover{
+	background:wheat;
+	color:black;
+}
+.lib-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+
+.hod-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+
+.hod-btn a{
+	text-decoration:none;
+	color:white;
+}
+
+.hod-btn button:hover{
+	background:wheat;
+	color:black;
+}
+
+.hod-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+.exam-btn button{
+	height:auto;
+	width:250px;
+	background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0px 0px 15px 0px;
+	border-radius:3px;
+	text-align:center;
+	color:white;
+}
+
+.exam-btn a{
+	text-decoration:none;
+	color:white;
+}
+
+.exam-btn button:hover{
+	background:wheat;
+	color:black;
+}
+
+.exam-btn button:hover a{
+	background:wheat;
+	color:black;
+}
+.abl{
+    width:30%;
+    height:auto;
+    /* background-color:brown; */
+    /* border-left:5px solid white; */
+    border-right:5px solid white;
+    border-radius:5px;
+}
+.abl-fac{
+    /* background-color: chocolate; */
+    margin-top:40px;
+    margin-left:5px;
+    margin-right:5px;
+    color:black;
+    text-align: center;
+}
+.abl-stud{
+    /* background-color: chocolate; */
+    margin-top:110px;
+    margin-left:5px;
+    margin-right:5px;
+    color:black;
+    text-align: center;
+}
+
+/* End of Button Section */
+
+/* Start of Notice Section */
+
+.ntice{
+    background-color:darkgoldenrod;
+    border-radius:10px;
+    text-align:center;
+	height:auto;
+}
+
+.tble table tr th {
+	height:auto;
+	color: #fff;
+	padding: 5px 40px;
+	border: 0.1px solid #fff;
+	border-radius: 10px;
+	text-align:center;			/* For 2nd Table */
+	font-weight: bolder;
+}
+.tble table tr td{
+	height:60px;
+	color:white;
+	padding: 2px 38px;
+	text-align:center;
+	/* background-color:white; */
+	border-radius:10px;
+	font-weight: bolder;
+	font-size:30px;
+}
+.Events h1{
+	text-align:center;
+	font-style: oblique;
+}
+.Events .calender{
+	text-align:center;
+	font-style: oblique;
+}
+.Events .calender .card{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.all-images .pic1{
+	position: relative;
+	width: 100%;
+  }
+  
+.all-images .image {
+	display: block;
+	width: 100%;
+	height: 60vh;
+  }
+  
+  .all-images  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #da2222;
+  }
+  
+  .all-images .pic1:hover .overlay {
+	opacity: 0.7;
+  }
+  
+  .all-images .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+.recent .card{
+	background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+.footer-partition{
+    width:24%;
+    color:white;
+    /* background-color: #da2222; */
+    height:auto;
+}
+
+h6{
+    font-weight:bolder;
+}
+.footer-partition ul li{
+    list-style:none !important;
+    display:block !important;
+    font-size:15px;
+}
+i{
+    color:white;
+    /* padding-left:15px; */
+    cursor:pointer;
+}
+
+/* End of Footer Area */

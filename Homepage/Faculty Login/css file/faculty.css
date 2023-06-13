@@ -1,0 +1,253 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'PT Serif', serif;
+    background-color: #eee;
+
+}
+.header{
+    height:auto;
+    /* border:2px solid black; */
+}
+.logo{
+    height:auto;
+    /* border:2px solid red; */
+}
+.college-name{
+    height:auto;
+    text-align:center;
+    margin-top:35px;
+}
+.student-portal-section{
+    height:auto;
+    /* border:2px solid black; */
+    /* background-color:#da2222; */
+}
+.student-portal-name{
+    height:auto;
+    /* border:2px solid red; */
+    text-align:center;
+    /* border-radius:7px; */
+    margin:0px 0px;
+}
+.student-portal-name h2{
+   padding:0px 0px;
+   background-color:#eee;
+   border-radius:7px;
+   
+}
+.student-menu-section{
+    border-radius:8px;
+    background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    box-shadow:9px 18px 20px black; 
+}
+.student-menu-section button{
+    border-radius:9px;
+    height:auto;
+    width:auto;
+}
+.student-menu-section button img{
+    border-radius:9px;
+}
+.information{
+    border-radius:9px;
+    box-shadow:9px 18px 18px black; 
+}
+.information-show{
+    text-align:center;
+    padding-top:270px;
+    color:#534f4f;
+    display:block;
+}
+.all-btn button:hover{
+    box-shadow:9px 10px 18px black; 
+    background-color:#F2CD5C;
+}
+.my-attendance table tbody tr td{
+    text-align:center;
+}
+.my-attendance{
+    display:none;
+}
+.ca-marks{
+    text-align:center;
+    padding-top:50px;
+    display:none;
+}
+.ca-marks table tbody tr td input[type="Number"]{
+    border-radius: 9px;
+}
+.student-activity{
+    text-align:center;
+    display:none;
+}
+.registration-card table tbody tr td button{
+    border-radius:9px;
+    background-color:#e9e4e4f4;
+}
+.registration-card table tbody tr td button a{
+    text-decoration:none;
+}
+.registration-card{
+    padding-top:90px;
+    text-align:center;
+    display:none;
+}
+.assignment{
+    text-align:center;
+    padding-top:27px;
+    padding-left:95px;
+    display:none;
+}
+.assignment table tbody tr td button{
+    border-radius:9px;
+    text-align:center;
+}
+.assignment table tbody tr td button a{
+    text-decoration:none;
+}
+.assignment table tbody tr td input[type=file]{
+    width:300px;
+}
+.mentor{
+    text-align:center;
+    padding-top:79px;
+    display:none;
+}
+.mentor table tbody tr td select{
+    border-radius:9px;
+}
+.mentor table{
+    margin-left:15px;
+}
+.result{
+    text-align:center;
+    padding-top:60px;
+    padding-left:28px;
+    display:none;
+}
+.result table tbody tr td button{
+    border-radius:9px;
+}
+.result table tbody tr td button a:hover{
+   text-decoration:none;
+   color:#da2222;
+}
+.online-exam{
+    padding-top:200px;
+    text-align:center;
+    display:none;
+}
+.online-exam table thead tr th{
+    text-align:center;
+    border:2px solid black;
+    background-color: #fff;
+}
+.online-exam table thead tr th a{
+    text-align:center;
+    color:#da2222;
+    text-decoration:none;
+}
+.online-exam table thead tr th button{
+    border:none;
+    background-color: #fff;
+    border-radius:9px;
+    font-size: 15px;
+}
+.upload-question-paper{
+    display:none;
+}
+.upload-question-paper table{
+    text-align:center;
+    border-radius:9px;
+}
+.study-resource{
+    text-align:center;
+    border-radius:9px;
+    display:none;
+}
+.notice{
+    background-color: #F2CD5C;
+    border-radius:9px;
+    box-shadow:9px 18px 18px black; 
+}
+.ref table tbody tr td button{
+    border-radius:9px;
+    background-color:#e9e4e4f4;
+}
+.ref table tbody tr td button a{
+    text-decoration:none;
+}
+.ref{
+    padding-top:90px;
+    text-align:center;
+    display:none;
+}
+.ref table{
+    margin-left:90px;
+}
+.all-images .pic1{
+	position: relative;
+	width: 100%;
+  }
+  
+.all-images .image {
+	display: block;
+	width: 100%;
+	height: 60vh;
+  }
+  
+  .all-images  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #da2222;
+  }
+  
+  .all-images .pic1:hover .overlay {
+	opacity: 0.7;
+  }
+  
+  .all-images .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+  .footer-partition{
+    width:24%;
+    color:white;
+    /* background-color: #da2222; */
+    height:auto;
+}
+
+h6{
+    font-weight:bolder;
+}
+.footer-partition ul li{
+    list-style:none !important;
+    display:block !important;
+    font-size:15px;
+}
+i{
+    color:white;
+    /* padding-left:15px; */
+    cursor:pointer;
+}
+
+/* End of Footer Area */

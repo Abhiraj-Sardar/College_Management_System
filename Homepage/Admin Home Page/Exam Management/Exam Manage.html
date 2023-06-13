@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css file/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lora&family=PT+Serif:wght@400;700&family=Playfair+Display+SC:ital@1&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lora&family=Playfair+Display+SC:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script>
+    var i=1;
+    var a=1;
+    var b=1;
+  </script>
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- <div class="row">
+      <div class="header">
+        <div class="header_partition">
+          <div class="contact">
+            contact
+            <div class="contact-list">
+              <a href="+91-8697499539">8697499539</a>
+              <a href="+91-8697499539">9088615439</a>
+            </div>
+          </div>
+        </div>
+        <div class="header_partition">
+          <div class="Email">
+            E-mail
+            <div class="Email-list">
+              <a href="Mailto:abhirajsardar2003@gmail.com">Abhiraj sardar</a>
+            </div>
+          </div>
+        </div>
+        <div class="header_partition">
+          <div class="social-media">
+            Social Media
+            <div class="social-list">
+              <a href="#">Whatsapp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="col-2 logo">
+        <img src="img/Stan.png" class="img-fluid" height="200px" width="170px" style="margin:5px 0px 10px 0px;">
+      </div>
+      <div class="col-10 college-name">
+        <h1>STANFORD INSTITUTE OF TECHNOLOGY</h1>
+        <hr style="background-color:black;width:80%">
+        <h4>450 Serra Mall, Stanford, California 94305, United States Of America</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 exam-section">
+        <hr  style="height:2px;border-width:0;color:#da2222;background-color:#da2222;">
+        <div class="place-exam-section"  style="background-color:#eee;">
+          <h1 style="text-shadow:2px 2px 5px rgba(255, 0, 0, 0.331)">Exam Management Section</h1>
+        </div>
+        <hr style="height:2px;border-width:0;color:#da2222;background-color:#da2222;border-style:2px dashed black;">
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-9">
+        <div class="container">
+        <div class="row">
+          <div class="col-2 menu1">
+            <!-- <img src="img/quick link.png" alt="quick link" height="100px" width="100px" style="margin-left:30px;"> -->
+            <div class="label1">
+              <h6 onclick="showmod()"><i class="fa-solid fa-hand-sparkles" style="font-size:100px;"></i></h6>
+              <h5>Rules & Regulations</h5>
+            </div>
+          </div>
+          <div class="col-2 menu1">
+            <!-- <img src="img/quick link.png" alt="quick link" height="100px" width="100px" style="margin-left:30px;"> -->
+            <div class="label1">
+              <h6><i class="fa-sharp fa-solid fa-scroll" style="font-size:100px;"></i></h6>
+              <h5>Sample Paper</h5>
+            </div>
+          </div>
+          <div class="col-2 menu1">
+            <!-- <img src="img/quick link.png" alt="quick link" height="100px" width="100px" style="margin-left:30px;"> -->
+            <div class="label1">
+              <h6><i class="fa-solid fa-circle-exclamation" style="font-size:100px;"></i></h6>
+              <h5>Notice</h5>
+            </div>
+          </div>
+          <hr>
+          
+        </div>
+      </div>
+      <hr>
+      </div>
+      <div class="col-3">
+        <div class="ongoing-exam">
+          <button onmouseover="showNo()" onmouseleave="offno()"><h4>Ongoing Exams</h4></button>
+          <div class="no" id="No">
+            <h1 style="color:#03C988">12</h1>
+          </div>
+        </div>
+        <!-- <hr style="margin-top:-1.5px;"> -->
+      </div>
+    </div>
+    
+    <!-- <div class="row">
+      <div class="col-12" style="border:2px solid black; height:100px;">
+       
+      </div>
+    </div> -->
+    
+    <br><br>
+    <div class="row">
+      <div class="col-8">
+        <div class="type-of-exam">
+          <button class="conduct-sem-exam" onclick="showsem()">
+            <h2>Conduct Semester Exam</h2>
+            <i class="fa-regular fa-circle-down" style="font-size:39px;padding-top:12px;"></i>
+          </button>
+          <button class="conduct-mock-exam" onclick="showmock()">
+            <h2>Conduct Mock Exam</h2>
+            <i class="fa-regular fa-circle-down" style="font-size:39px;padding-top:12px;"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-4">
+          <div class="exam-status">
+            <div class="total-exam">
+              <h3>Total Exams</h3>
+              <h3>95</h3>
+            </div>
+            <div class="upcoming-exam">
+              <h3>Upcoming Exams</h3>
+              <h3>5</h3>
+            </div>
+            <div class="complete-exam">
+              <h3>Completed Exams</h3>
+              <h3>90</h3>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container exam-information" style="height:80vh;">
+      <!-- <div class="row"> -->
+        <div class="placeholder-info" id="ph">
+          <h3 style="color:#535050;text-shadow:2px solid #000;padding-top:250px;">Information will be shown here</h3>
+        </div>
+        <div class="conduct-sem-exam-info" id="sem-exm">
+          <div class="container mt-2 mb-5" style="height:auto;">
+            <div class="row">
+              <!-- <h4 style="margin-top:4px;">Exam Name:<input type="text" class="form-control" required></h4>
+              <h4 style="margin:4px 250px;">Department Name</h4> -->
+              
+              <div class="col-12 col-md-5">
+               <h4 style="text-align:center;">Exam name</h4>
+               <input type="text" class="form-control" placeholder="Enter Exam Name" required>
+
+              </div>
+               <div class="col-12 col-md-5">
+                  <h4 style="text-align: center;">Department Name</h4>
+                  <select name="dep" class="form-control" required>
+                  <option disabled selected value="">-------------------Select Department---------------</option>
+                  <option value="CSE">CSE</option>
+                  <option value="BCA">BCA</option>
+                  <option value="IT">IT</option>
+                  <option value="ECE">ECE</option>
+                  <option value="CIVIL">CIVIL</option>
+                  <option value="ME">ME</option>
+                  <option value="BBA">BBA</option>
+                  <option value="MBA">MBA</option>
+                  <option value="BSC">BSC</option>
+                  <option value="MCA">MCA</option>
+                  <option value="M.TECH">M.TECH</option>
+                  </select> 
+                </div>
+                <div class="col-12 col-md-2">
+                  <h4 style="text-align:center;">Session</h4>
+                  <input type="text" class="form-control" placeholder="Enter Session" required>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12" style="height:auto;">
+                    <h3 style="text-align:center;">Create Exam Schedule</h3>
+              </div>
+            </div>
+            <div class="row exam-schedule">
+              <div class="col-12" style="height:auto;">
+                <table class="table table-responsive">
+                  <thead>
+                    <tr>
+                      <th>Subject Name</th>
+                      <th>Full Marks</th>
+                      <th>Time & Date</th>
+                      <th>Upload Question Paper</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="text" class="form-control" placeholder="Enter Subject Name"></td>
+                        <td><input type="text" class="form-control" placeholder="Enter Full Marks"></td>
+                        <td><input type="date" class="form-control"></td>
+                        <td><input type="file" class="form-control"></td>
+                      </tr>
+                      <tr>
+                        <td><input type="text" class="form-control" placeholder="Enter Subject Name"></td>
+                        <td><input type="text" class="form-control" placeholder="Enter Full Marks"></td>
+                        <td><input type="date" class="form-control"></td>
+                        <td><input type="file" class="form-control"></td>
+                      </tr>
+                      <tr>
+                        <td><input type="text" class="form-control" placeholder="Enter Subject Name"></td>
+                        <td><input type="text" class="form-control" placeholder="Enter Full Marks"></td>
+                        <td><input type="date" class="form-control"></td>
+                        <td><input type="file" class="form-control"></td>
+                      </tr>
+                      <tr>
+                        <td><input type="text" class="form-control" placeholder="Enter Subject Name"></td>
+                        <td><input type="text" class="form-control" placeholder="Enter Full Marks"></td>
+                        <td><input type="date" class="form-control"></td>
+                        <td><input type="file" class="form-control"></td>
+                      </tr>
+                      <tr>
+                        <td><input type="text" class="form-control" placeholder="Enter Subject Name"></td>
+                        <td><input type="text" class="form-control" placeholder="Enter Full Marks"></td>
+                        <td><input type="date" class="form-control"></td>
+                        <td><input type="file" class="form-control"></td>
+                      </tr>
+                    </tbody>
+                  
+                </table>
+                <input type="submit" value="Update" class="btn btn btn-success" style="float:right;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid mt-5 conduct-mock-exam-info" id="mock-exm">
+            <div class="row" >
+              
+                <div class="col-12 col-md-4 mock-exam1">
+                   <a href="https://www.testyou.in/" target="_blank">
+                    <img src="img/mock-exam1.png" alt="mock-exam1" height="200px" width="100%">
+                  </a> 
+                </div>
+                <div class="col-12 col-md-4 mock-exam2">
+                  <a href="https://onlineexammaker.com/" target="_blank">
+                   <img src="img/mock-exam2.webp" alt="mock-exam1" height="200px" width="100%">
+                 </a> 
+               </div>
+               <div class="col-12 col-md-4 mock-exam3">
+                <a href="https://onlineexammaker.com/" target="_blank">
+                 <img src="img/mock-exam3.png" alt="mock-exam1" height="200px" width="100%">
+               </a> 
+             </div>
+                
+            </div>
+        </div> 
+     </div>
+    </div>
+    <br>
+    <div class="container-fluid testimonials" style=" height:auto;">
+        <h5>Testimonials</h5>
+        <h2>What Our Aluminis Say</h2>
+        <br>
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="img/girl.jpg" alt="Card image cap" height="200px;">
+              <div class="card-body">
+                <h4>Anastasiya Gepp</h4>
+                <p class="card-text"><q>It was a great experience to study in this college. I really feel myself very lucky that i am a ex-student of this college </q></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="img/girl2.jpg" alt="Card image cap" height="200px;">
+              <div class="card-body">
+                <h4>Andrea Piacquadio</h4>
+                <p class="card-text"><q>M.S (NUS, Singapore) and now she is attached with Integrated Circuit Test and Evaluation Engineer at Socionext Europe </q></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="img/boy2.jpg" alt="Card image cap" height="200px;">
+              <div class="card-body">
+                <h4> Julia M Cameron</h4>
+                <p class="card-text"><q>It was a great experience to study in this college. I really feel myself very lucky that i am a ex-student of this college </q></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="img/boy3.jpg" alt="Card image cap" height="200px;">
+              <div class="card-body">
+                <h4>Vantha Thang</h4>
+                <p class="card-text"><q>It was a great experience to study in this college. I really feel myself very lucky that i am a ex-student of this college </q></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <br>
+     <div class="container-fluid" style="background-color:rgb(33, 31, 31);">
+        <div class="row col-12">
+          <div class="footer-partition mt-5 ml-3">
+            <!-- <img src="img/Stanbw.png" height="100px" width="100px" style="margin-left:auto;margin-right:auto;display:block"> -->
+            <h4 style="text-transform:uppercase;padding-top:6px;text-align:center;">Stanford Institute Of Technology</h4>
+          </div>
+          <div class="footer-partition mt-5 ml-2">
+            <h6 style="padding-left:39px;padding-top:10px">Stanford Institute of Technology</h6>
+            <ul>
+              <li>Edward H. Levi Hall</li>
+              <li>5801 S. Ellis Ave.</li>
+              <li>Chicago,IL 60637</li>
+            </ul>
+          </div>
+          <div class="footer-partition mt-5 ml-2">
+            <ul style="text-decoration:underline;line-height: 40px;cursor:pointer;">
+              <li>Title IX</li>
+              <li>Non-Discrimination Statement</li>
+              <li>Accreditation/IBHE Resolution</li>
+              <li>Emergency Info</li>
+              <li>Job Opportunities</li>
+              <li>Make A Gift</li>
+              <li>Accesibility</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+          <div class="footer-partition mt-5 ml-2">
+            <ul style="text-decoration:underline;line-height: 40px;cursor:pointer;">
+              <li>Visit UCalifornia</li>
+              <li>Campus Directory</li>
+              <li>Contact Us</li>
+              <li>Maps & Directions</li>
+              <li>My.UCalifornia</li>
+              <li>Office 365</li>
+              <li>A-Z Listing</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="row justify-content-end hello" style="margin-right:172px">
+          <i class="fa-brands fa-facebook-f" style="margin-left:15px"></i>
+          <i class="fa-brands fa-instagram" style="margin-left:15px"></i>          
+          <i class="fa-brands fa-linkedin-in" style="margin-left:15px"></i>
+          <i class="fa-brands fa-twitter" style="margin-left:15px"></i>
+          <i class="fa-brands fa-youtube" style="margin-left:15px"></i>
+        </div>
+    
+        <hr style=" background-color:black">
+        <div class="row justify-content-center text-white">
+          <i class="fa-sharp fa-regular fa-copyright" style="font-size:12px;padding-top:6px"></i><p style="font-weight:bolder">2023 Stanford University of Technology</p>
+        </div>
+      </div>
+  <script>
+    function showmod(){
+      document.get.getElementById('mod');
+    }
+     function showNo(){
+       document.getElementById('No').style.display="block";
+     }
+    function offno(){
+      document.getElementById('No').style.display="none";
+    }
+    function showsem(){
+      if(a%2!=0)
+      {
+         document.getElementById('ph').style.display="none";
+         document.getElementById('sem-exm').style.display="block";
+        document.getElementById('mock-exm').style.display="none";
+      }
+      else{
+        console.log(a);
+        document.getElementById('ph').style.display="block";
+        document.getElementById('mock-exm').style.display="none";
+         document.getElementById('sem-exm').style.display="none";
+      }
+      a=a+1;
+    }
+    function showmock(){
+      if(b%2!=0)
+      {
+        document.getElementById('ph').style.display="none";
+        document.getElementById('mock-exm').style.display="block";
+        document.getElementById('sem-exm').style.display="none";
+      }
+      else{
+        document.getElementById('ph').style.display="block";
+        document.getElementById('mock-exm').style.display="none";
+        document.getElementById('sem-exm').style.display="none";
+      }
+      b=b+1;
+    }
+  </script>
+</body>
+</html>
