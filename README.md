@@ -8,3 +8,7 @@ I develop a Frontend College Management System for Stanford University using HTM
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/exam.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/library.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/faculty.gif)
+![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentp1.gif)
+![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentp2.gif)
+![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/facultyp1.gif)
+![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/facultyp2.gif)
