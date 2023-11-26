@@ -4,7 +4,9 @@ It is Frontend College Management System designed for Stanford University. my Fr
 <h1>Software Structure</h1>
 This Software is divided into small entities mentioned below:
 <ol type="1">
-<li>Admin Panel:</li>Here,The Administrator can Perform tasks like student management,course management,library management etc related task.
+<li><b>Admin Panel:</b>Here,The Administrator can Perform tasks like student management,course management,library management etc related task.</li>
+<li><b>Student Login:</b></li>
+<li><b>Faculty Login:</b></li>
 </ol>
 
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/homepage.gif)
