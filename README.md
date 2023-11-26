@@ -52,10 +52,24 @@ The Admin Login Section Looks like this--
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/library.gif)
 
 <h1>Faculty Management</h1>
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/faculty.gif)
 
+<h1>Student Login</h1>
+The Student Login has limited access to some service for student purposes. This looks like this--
 
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentp1.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentp2.gif)
+
+<h1>Faculty Login</h1>
+The Student Login has limited access to some service for Faculty Members. This looks like this--
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/facultyp1.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/facultyp2.gif)
+
+<h1>Future Scope</h1>
+The Future use of the Software can be 
+<ol>
+  <li>It can be used as a Frontend template one can just copy this project and focus on the backend development to learn to backend</li>
+  <li>Furthur backend connection can be build to make this project a full stack project</li>
+</ol>
