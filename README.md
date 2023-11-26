@@ -29,15 +29,32 @@ The Homepage of this software looks like this--
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/homepage.gif)
 
 <h1>ADMIN LOGIN</h1>
+This section contains several individual entities such as student management,course management,exam management,library management,faculty management,hod management etc.
+let's take a view of this sections are look like.
 The Admin Login Section Looks like this--
 
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/adminpanel.gif)
 
+<h1>Student Management</h1>
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentmanage.gif)
+
+<h1>Course Management</h1>
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/course.gif)
+
+<h1>Exam Management</h1>
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/exam.gif)
+
+<h1>Library Management</h1>
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/library.gif)
+
+<h1>Faculty Management</h1>
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/faculty.gif)
+
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentp1.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentp2.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/facultyp1.gif)
