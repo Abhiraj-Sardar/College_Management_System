@@ -1,6 +1,6 @@
 # College_Management_System
-I develop a Frontend College Management System for Stanford University using HTML , CSS , JAVASCRIPT
-
+<h1>Introduction</h1>
+It is Frontend College Management System designed for Stanford University. my Frontend Skills are implemented in this project. It is the software with capabilities of Student Management,Course Management,Library Management,Admin Panel,Student Portal,Faculty portal. It provides different views for different job roles like Student Portal for Students,Faculty Portal for Faculty Members,Admin Panel for the college Administrator.
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/homepage.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/adminpanel.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentmanage.gif)
