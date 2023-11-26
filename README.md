@@ -4,10 +4,10 @@ It is Frontend College Management System designed for Stanford University. my Fr
 <h1>Technology Stack<h1>
   The S
   <ol>
-  <li><b>HTML5: https://www.w3schools.com/html/</b></li>
-    <li><b>CSS5: https://www.w3schools.com/css/</b></li>
-    <li><b>Bootstrap: https://getbootstrap.com/</b></li>
-    <li><b>JavaScript: https://www.w3schools.com/js/</b></li>
+  <li><b>HTML5:</b>https://www.w3schools.com/html/</li>
+    <li><b>CSS5:</b> https://www.w3schools.com/css/</li>
+    <li><b>Bootstrap:</b>https://getbootstrap.com/</li>
+    <li><b>JavaScript:</b>https://www.w3schools.com/js/</li>
   </ol>
   
 <h1>Software Structure</h1>
