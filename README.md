@@ -3,11 +3,12 @@
 It is Frontend College Management System designed for Stanford University. my Frontend Skills are implemented in this project. It is the software with capabilities of Student Management,Course Management,Library Management,Admin Panel,Student Portal,Faculty portal. It provides different views for different job roles like Student Portal for Students,Faculty Portal for Faculty Members,Admin Panel for the college Administrator.
 <h1>Technology Stack<h1>
   <ol type="1">
-    <li>HTML5</li>
+    <li><b>HTML5</b></li>
     <li>CSS5</li>
     <li>BOOTSTRAP</li>
     <li>JAVASCRIPT</li>
   </ol>
+  
 <h1>Software Structure</h1>
 This Software is divided into small entities mentioned below:
 <ol type="1">
@@ -18,7 +19,8 @@ This Software is divided into small entities mentioned below:
   
 <h1>How To Install and Run This Software</h1>
   <ol type="1">
-    <li>Copy The link from Github and paste it at git bash after this command **$git clone <copied link>**</li>
+    <li>Copy The link from Github and paste it at git bash after this command <b>$git clone <copied link></b></li>
+    <li> after successful completion of clonning just open the file and run the <b>index.html</b> file inside the <b>Homepage Folder</b></li>
   </ol>
 <h1>The HomePage</h1>
 The Homepage of this software looks like this
