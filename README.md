@@ -3,10 +3,10 @@
 It is Frontend College Management System designed for Stanford University. my Frontend Skills are implemented in this project. It is the software with capabilities of Student Management,Course Management,Library Management,Admin Panel,Student Portal,Faculty portal. It provides different views for different job roles like Student Portal for Students,Faculty Portal for Faculty Members,Admin Panel for the college Administrator.
 <h1>Technology Stack<h1>
   <ol>
-  <li></li><b>1.HTML5: https://www.w3schools.com/html/</b></ol></li>
-    <li><b>2.CSS5: https://www.w3schools.com/css/</b></li>
-    <li><b>3.Bootstrap: https://getbootstrap.com/</b></li>
-    <li><b>4.JavaScript: https://www.w3schools.com/js/</b></li>
+  <li><b>HTML5: https://www.w3schools.com/html/</b></ol></li>
+    <li><b>CSS5: https://www.w3schools.com/css/</b></li>
+    <li><b>Bootstrap: https://getbootstrap.com/</b></li>
+    <li><b>JavaScript: https://www.w3schools.com/js/</b></li>
   </ol>
   
 <h1>Software Structure</h1>
