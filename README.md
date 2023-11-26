@@ -27,7 +27,12 @@ This Software is divided into small entities mentioned below:
 The Homepage of this software looks like this--
 
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/homepage.gif)
+
+<h1>ADMIN LOGIN</h1>
+The Admin Login Section Looks like this--
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/adminpanel.gif)
+
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/studentmanage.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/course.gif)
 ![](https://github.com/Abhiraj-Sardar/College_Management_System/blob/main/OUTPUT/exam.gif)
